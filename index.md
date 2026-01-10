@@ -3,9 +3,19 @@ layout: default
 title: Home
 ---
 
-<div class="highlight">
-Join us for the Bennington Qualifiers on Saturday 1/31/2026 at <a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>!
-</div>
+## Meeting Schedule
+
+- **Sundays** 3:00 – 5:00 PM
+- **Wednesdays** 6:00 – 8:00 PM
+
+**Location:** Beech Street School, 246 South Stream Road, Bennington VT 05201
+
+## Upcoming Events
+
+| Date | Event | Location |
+|------|-------|----------|
+| Sat 1/31/2026 | Bennington Qualifiers | [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA) |
+| Sat 3/7/2026 | Vermont Championship | South Burlington HS |
 
 ## Teams
 
