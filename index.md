@@ -17,14 +17,17 @@ Team members design, build, and program their own robots to perform tasks and sc
 
 Students work directly with technical mentors from the local community, including mechanical engineers, automation engineers, and software developers.
 
+### Cookie Clickers at the 2025 VT State Championship playoffs
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SjT1XGYhEfc?start=19364" title="2025 VT State Championship Playoff Match" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-<p style="text-align: center; font-style: italic;">Cookie Clickers at the 2025 VT State Championship playoffs</p>
+
+_Playoff match 4 at the [2024-2025 VT State Championship](https://ftc-events.firstinspires.org/2024/USVTCMP)._
 
 ## Teams
 
-- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650)** – formed in 2019, winning alliance at the Vermont Championship in 2024
+- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650)** – formed in 2019, winning alliance at the Vermont Championship in 2025
 - **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473)** – formed in 2025
 
 ## Meeting Schedule
