@@ -15,6 +15,9 @@ We are grateful to the following organizations for their support of youth roboti
 - [Gene Haas Foundation](https://www.ghaasfoundation.org/)
 - [Catamount Rotary](https://portal.clubrunner.ca/2912)
 - [Abacus Automation](https://abacusautomation.com/)
+
+### In-kind support from:
+
 - [Bennington Ramunto's](https://ramuntos.com/bennington-vt/)
 
 ### Space provided by:
