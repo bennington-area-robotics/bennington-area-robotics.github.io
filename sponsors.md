@@ -3,7 +3,7 @@ layout: default
 title: Sponsors
 ---
 
-## Our Sponsors
+## Our Sponsors (2025-2026)
 
 We are grateful to the following organizations for their support of youth robotics in the greater Bennington area.
 
@@ -14,6 +14,7 @@ We are grateful to the following organizations for their support of youth roboti
 - [Catamount Rotary](https://portal.clubrunner.ca/2912)
 - [Abacus Automation](https://abacusautomation.com/)
 - [Bennington Ramunto's](https://ramuntos.com/bennington-vt/)
+- [Southwest Vermont Supervisory Union (SVSU)](https://www.svsu.org/)
 
 ---
 
