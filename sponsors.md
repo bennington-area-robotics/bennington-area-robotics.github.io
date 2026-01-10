@@ -20,4 +20,4 @@ We are grateful to the following organizations for their support of youth roboti
 
 ### Become a Sponsor
 
-Interested in supporting youth robotics in our community? Contact us through [Bennington Area Makers](https://www.bamvt.com).
+Interested in supporting youth robotics in our community? Contact us at [info@bamvt.com](mailto:info@bamvt.com?subject=Robotics%20Sponsorship).
