@@ -7,13 +7,13 @@ title: Bennington Qualifiers
 
 An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement for VT teams to the Regional Championship.
 
-**Date:** Saturday, January 31, 2026 *(time TBD)*
+**Date:** Saturday, January 31, 2026, 8:00 AM – 5:00 PM
 
 **Location:** [Mount Anthony Union Middle School](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA), 747 East Rd, Bennington, VT 05201
 
 **Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season) (2025-2026 season)
 
-**Teams:** 12-15 teams expected from Vermont, Massachusetts, and New York
+**Teams:** 9 teams from Vermont and New York
 
 ---
 
@@ -29,7 +29,15 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 ### Registered Teams
 
-*Team list will be posted closer to the event*
+- **5741** – RoboHawks
+- **8304** – Wired Cats
+- **9721** – Green Mountain Gears
+- **14251** – Capital Robotics
+- **16221** – Manchester Machine Makers
+- **18650** – Cookie Clickers
+- **24107** – Trash Pandas
+- **32473** – Bennington Bolts and Biscuits
+- **32818** – Wired Cats Devo
 
 ### What is FTC?
 
