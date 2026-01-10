@@ -4,14 +4,18 @@ title: Home
 ---
 
 <div class="highlight">
-Join us for the <a href="qualifiers">Bennington Qualifiers</a> on Saturday 1/31/2026 at <a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>!
+Come watch local students compete with robots they designed and built themselves at the <a href="qualifiers">Bennington Qualifiers</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>)!
 </div>
 
 ## About Us
 
 Bennington Area Robotics is a community-based youth robotics group, drawing middle and high-school aged students from Bennington and surrounding towns, including North Bennington, Shaftsbury, Hoosick Falls and Cambridge.
 
-We participate in [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) (FTC), an annual robotics competition where four robots compete on a 12'x12' playing field. Team members design, build, and program their own robots to perform tasks and score points. Along the way, students develop skills in mechanical engineering, programming, planning, design, presentation, collaboration, and gracious professionalism. Students work directly with technical mentors from the local community, including mechanical engineers, automation engineers, and software developers.
+We participate in [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) (FTC), an annual robotics competition where four robots race to collect and score game pieces on a 12'x12' playing field. 
+
+Team members design, build, and program their own robots to perform tasks and score points. Along the way, students develop skills in mechanical engineering, programming, planning, design, presentation, collaboration, and gracious professionalism (competing hard while helping other teams succeed).
+
+Students work directly with technical mentors from the local community, including mechanical engineers, automation engineers, and software developers.
 
 ## Teams
 
