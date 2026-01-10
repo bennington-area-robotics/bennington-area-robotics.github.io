@@ -2,7 +2,7 @@
 
 Community-based youth robotics teams based in Bennington, Vermont.
 
-Join us for the Bennington Qualifiers on Saturday 1/31/2026 at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)!
+Join us for the [Bennington Qualifiers](https://bennington-area-robotics.github.io/qualifiers) on Saturday 1/31/2026 at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)!
 
 ## Teams
 
