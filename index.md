@@ -21,10 +21,8 @@ Join us for the <a href="qualifiers">Bennington Qualifiers</a> on Saturday 1/31/
 
 ## Upcoming Events
 
-| Date | Event | Location |
-|------|-------|----------|
-| Sat 1/31/2026 | [Bennington Qualifiers](qualifiers) | [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA) |
-| Sat 3/7/2026 | Vermont Championship | South Burlington HS |
+- **Sat 1/31/2026** – [Bennington Qualifiers](qualifiers) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)
+- **Sat 3/7/2026** – Vermont Championship at South Burlington HS
 
 ## Links
 
