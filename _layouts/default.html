@@ -77,6 +77,22 @@
       font-size: 0.9rem;
       color: #666;
     }
+    nav a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      margin-right: 1.25rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    nav a:hover {
+      color: white;
+      border-bottom-color: rgba(255, 255, 255, 0.5);
+    }
+    nav a.active {
+      color: white;
+      border-bottom-color: white;
+    }
   </style>
 </head>
 <body>
@@ -85,8 +101,9 @@
       <h1><a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
       <nav style="margin-top: 0.75rem;">
-        <a href="{{ '/' | relative_url }}" style="color: white; margin-right: 1rem;">Home</a>
-        <a href="{{ '/qualifiers' | relative_url }}" style="color: white; margin-right: 1rem;">Qualifiers</a>
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/qualifiers' | relative_url }}" {% if page.url == '/qualifiers' or page.url == '/qualifiers.html' %}class="active"{% endif %}>Qualifiers</a>
+        <a href="{{ '/sponsors' | relative_url }}" {% if page.url == '/sponsors' or page.url == '/sponsors.html' %}class="active"{% endif %}>Sponsors</a>
       </nav>
     </div>
   </header>

@@ -7,6 +7,10 @@ title: Home
 Join us for the <a href="qualifiers">Bennington Qualifiers</a> on Saturday 1/31/2026 at <a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>!
 </div>
 
+## About Us
+
+Bennington Area Robotics is a community-based youth robotics group, drawing middle and high-school aged students from Bennington and surrounding towns, including North Bennington, Shaftsbury, Hoosick Falls and Cambridge.
+
 ## Teams
 
 - **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650)** – formed in 2019, winning alliance at the Vermont Championship in 2024
