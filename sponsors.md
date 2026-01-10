@@ -7,13 +7,13 @@ title: Sponsors
 
 We are grateful to the following organizations for their support of youth robotics in the greater Bennington area.
 
-- **[FIRSTinVT](https://www.firstinvermont.org/)** – Supporting FIRST programs across Vermont
-- **[Comprehensive Computing](https://www.comprehensive-computing.com/)** – IT solutions and consulting
-- **[UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/)** – Agricultural engineering education and research
-- **[Gene Haas Foundation](https://www.ghaasfoundation.org/)** – Supporting manufacturing education
-- **[Catamount Rotary](https://portal.clubrunner.ca/2912)** – Service and community support
-- **[Abacus Automation](https://abacusautomation.com/)** – Industrial automation solutions
-- **[Bennington Ramunto's](https://ramuntos.com/bennington-vt/)** – Local pizza and community supporter
+- [FIRSTinVT](https://www.firstinvermont.org/)
+- [Comprehensive Computing](https://www.comprehensive-computing.com/)
+- [UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/)
+- [Gene Haas Foundation](https://www.ghaasfoundation.org/)
+- [Catamount Rotary](https://portal.clubrunner.ca/2912)
+- [Abacus Automation](https://abacusautomation.com/)
+- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/)
 
 ---
 
