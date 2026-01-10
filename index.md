@@ -14,7 +14,7 @@ title: Home
 
 | Date | Event | Location |
 |------|-------|----------|
-| Sat 1/31/2026 | Bennington Qualifiers | [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA) |
+| Sat 1/31/2026 | [Bennington Qualifiers](qualifiers) | [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA) |
 | Sat 3/7/2026 | Vermont Championship | South Burlington HS |
 
 ## Teams
