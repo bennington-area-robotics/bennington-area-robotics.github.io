@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <style>
+    :root {
+      --primary: #1a5f7a;
+      --accent: #e63946;
+      --bg: #fafafa;
+      --text: #333;
+      --link: #1a5f7a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+    }
+    header .container {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.75rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      opacity: 0.9;
+    }
+    main h2 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: var(--link);
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .highlight {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </header>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer class="container">
+    <p>&copy; {{ 'now' | date: "%Y" }} Bennington Area Robotics</p>
+  </footer>
+</body>
+</html>
