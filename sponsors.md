@@ -7,6 +7,8 @@ title: Sponsors
 
 We are grateful to the following organizations for their support of youth robotics in the greater Bennington area.
 
+### Financial support from:
+
 - [FIRSTinVT](https://www.firstinvermont.org/)
 - [Comprehensive Computing](https://www.comprehensive-computing.com/)
 - [UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/)
@@ -14,6 +16,9 @@ We are grateful to the following organizations for their support of youth roboti
 - [Catamount Rotary](https://portal.clubrunner.ca/2912)
 - [Abacus Automation](https://abacusautomation.com/)
 - [Bennington Ramunto's](https://ramuntos.com/bennington-vt/)
+
+### Space provided by:
+
 - [Southwest Vermont Supervisory Union (SVSU)](https://www.svsu.org/)
 
 ---
