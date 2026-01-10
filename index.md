@@ -7,6 +7,11 @@ title: Home
 Come watch local students compete with robots they designed and built themselves at the <a href="events/bennington-qualifier-2026">Bennington Qualifier</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>)!
 </div>
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SjT1XGYhEfc?start=19364" title="2025 VT State Championship Playoff Match" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p style="text-align: center; font-style: italic;">Cookie Clickers at the 2025 VT State Championship playoffs</p>
+
 ## About Us
 
 Bennington Area Robotics is a community-based youth robotics group, drawing middle and high-school aged students from Bennington and surrounding towns, including North Bennington, Shaftsbury, Hoosick Falls and Cambridge.
