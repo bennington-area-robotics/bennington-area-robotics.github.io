@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="highlight">
-Come watch local students compete with robots they designed and built themselves at the <a href="qualifiers">Bennington Qualifiers</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>)!
+Come watch local students compete with robots they designed and built themselves at the <a href="events/bennington-qualifier-2026">Bennington Qualifier</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA">MAUMS</a>)!
 </div>
 
 ## About Us
@@ -31,7 +31,7 @@ Students work directly with technical mentors from the local community, includin
 
 ## Upcoming Events
 
-- **Sat 1/31/2026** – [Bennington Qualifiers](qualifiers) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)
+- **Sat 1/31/2026** – [Bennington Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)
 - **Sat 3/7/2026** – Vermont Championship at South Burlington HS
 
 ## Links
