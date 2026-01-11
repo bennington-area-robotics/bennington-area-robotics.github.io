@@ -34,7 +34,9 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 *Coming soon*
 
-### Registered Teams
+### Registered teams
+
+*Vermont teams only; out-of-state teams TBD*
 
 - **5741** – RoboHawks
 - **8304** – Wired Cats
