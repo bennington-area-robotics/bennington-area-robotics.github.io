@@ -21,7 +21,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 - **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650)** – Bennington
 - **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473)** – Bennington
-- **[FTC 16222: Manchester Machine Makers](https://ftc-events.firstinspires.org/team/16222)** – Manchester
+- **[FTC 16221: Manchester Machine Makers](https://manchestermachinemakers.org/)** – Manchester
 
 ### Supported By
 
