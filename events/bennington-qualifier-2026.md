@@ -9,9 +9,9 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Date:** Saturday, January 31, 2026, 8:00 AM – 5:00 PM
 
-**Location:** Mount Anthony Union Middle School (MAUMS), 747 East Rd, Bennington, VT 05201 | [Map](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)
+**Location:** Mount Anthony Union Middle School (MAUMS), 747 East Rd, Bennington, VT 05201 | [Map](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
-**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season) (2025-2026 season)
+**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season)
 
 **Teams:** 9 teams from Vermont and New York
 
@@ -19,16 +19,16 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 ### Host Teams
 
-- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650)** – Bennington
-- **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473)** – Bennington
-- **[FTC 16221: Manchester Machine Makers](https://ftc-events.firstinspires.org/team/16221)** – Manchester ([Team Site](https://manchestermachinemakers.org))
+- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – Bennington
+- **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – Bennington
+- **[FTC 16221: Manchester Machine Makers](https://ftc-events.firstinspires.org/team/16221){:target="_blank"}** – Manchester ([Team Site](https://manchestermachinemakers.org){:target="_blank"})
 
 ### Supported By
 
-- [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT)
+- [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT){:target="_blank"}
 - University of Vermont
-- [SVSU](https://www.svsu.org/)
-- [MAUMS](https://maums.svsu.org/)
+- [SVSU](https://www.svsu.org/){:target="_blank"}
+- [MAUMS](https://maums.svsu.org/){:target="_blank"}
 
 ### Schedule
 
@@ -52,8 +52,8 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 FIRST Tech Challenge is a robotics program for students grades 7-12. Teams design, build, and program robots to compete on a 12'x12' field in alliance-based matches.
 
-- [Introduction to FTC](https://youtu.be/y5NPp_5KHuk)
-- [DECODE Game Video](https://youtu.be/LCqWA6gSCXA)
+- [Introduction to FTC](https://youtu.be/y5NPp_5KHuk){:target="_blank"}
+- [DECODE Game Video](https://youtu.be/LCqWA6gSCXA){:target="_blank"}
 
 ### Directions
 
@@ -61,7 +61,7 @@ Mount Anthony Union Middle School
 747 East Rd
 Bennington, VT 05201
 
-[Get Directions](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA)
+[Get Directions](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
 ### Contact
 

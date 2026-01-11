@@ -9,20 +9,20 @@ We are grateful to the following organizations for their support of youth roboti
 
 ### Financial support from:
 
-- [FIRSTinVT](https://www.firstinvermont.org/)
-- [Comprehensive Computing](https://www.comprehensive-computing.com/)
-- [UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/)
-- [Gene Haas Foundation](https://www.ghaasfoundation.org/)
-- [Catamount Rotary](https://portal.clubrunner.ca/2912)
-- [Abacus Automation](https://abacusautomation.com/)
+- [FIRSTinVT](https://www.firstinvermont.org/){:target="_blank"}
+- [Comprehensive Computing](https://www.comprehensive-computing.com/){:target="_blank"}
+- [UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/){:target="_blank"}
+- [Gene Haas Foundation](https://www.ghaasfoundation.org/){:target="_blank"}
+- [Catamount Rotary](https://portal.clubrunner.ca/2912){:target="_blank"}
+- [Abacus Automation](https://abacusautomation.com/){:target="_blank"}
 
 ### In-kind support from:
 
-- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/)
+- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/){:target="_blank"}
 
 ### Space provided by:
 
-- [Southwest Vermont Supervisory Union (SVSU)](https://www.svsu.org/)
+- [Southwest Vermont Supervisory Union (SVSU)](https://www.svsu.org/){:target="_blank"}
 
 ---
 
