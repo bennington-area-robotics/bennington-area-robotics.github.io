@@ -23,14 +23,6 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 - **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – Bennington
 - **[FTC 16221: Manchester Machine Makers](https://ftc-events.firstinspires.org/team/16221){:target="_blank"}** – Manchester ([Team Site](https://manchestermachinemakers.org){:target="_blank"})
 
-### Supported By
-
-- [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT){:target="_blank"}
-- University of Vermont
-- [SVSU](https://www.svsu.org/){:target="_blank"}
-- [MAUMS](https://maums.svsu.org/){:target="_blank"}
-- [Bennington Rotary](https://www.benningtonrotary.org/){:target="_blank"}
-
 ### Schedule
 
 | Time | Event |
@@ -75,6 +67,14 @@ Mount Anthony Union Middle School
 Bennington, VT 05201
 
 [Get Directions](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
+
+### Supported By
+
+- [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT){:target="_blank"}
+- University of Vermont
+- [SVSU](https://www.svsu.org/){:target="_blank"}
+- [MAUMS](https://maums.svsu.org/){:target="_blank"}
+- [Bennington Rotary](https://www.benningtonrotary.org/){:target="_blank"}
 
 ### Contact
 
