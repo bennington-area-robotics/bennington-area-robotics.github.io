@@ -4,14 +4,14 @@ title: Home
 ---
 
 <div class="highlight">
-Come watch local students compete with robots they designed and built themselves at the <a href="events/bennington-qualifier-2026">Bennington Qualifier</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA" target="_blank">MAUMS</a>)!
+Come watch local students compete with robots they designed and built themselves at the <a href="events/bennington-qualifier-2026">Bennington FTC Qualifier</a> on Saturday 1/31/2026 at Mt. Anthony Union Middle School (<a href="https://maps.app.goo.gl/zE9WbCbWNENq3pGUA" target="_blank">MAUMS</a>)!
 </div>
 
 ## Upcoming Events
 
-- **Sat 1/31/2026** – [Bennington Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
-- **Sun 2/15/2026** – Northfield Qualifier at Norwich University
-- **Sat 3/7/2026** – Vermont Championship at South Burlington HS
+- **Sat 1/31/2026** – [Bennington FTC Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
+- **Sun 2/15/2026** – Northfield FTC Qualifier at Norwich University
+- **Sat 3/7/2026** – Vermont FTC State Championship at South Burlington HS
 
 ## Meeting Schedule
 
