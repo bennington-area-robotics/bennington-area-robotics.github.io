@@ -9,7 +9,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Date:** Saturday, January 31, 2026, 7:15 AM – 3:30 PM
 
-**Location:** Mount Anthony Union Middle School (MAUMS), 747 East Rd, Bennington, VT 05201 | [Map](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
+**Location:** Mount Anthony Union Middle School (MAUMS), 747 East Rd, Bennington, VT 05201 \| [Map](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
 **Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season)
 
