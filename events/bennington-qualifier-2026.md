@@ -68,5 +68,5 @@ FIRST Tech Challenge is a robotics program for students grades 7-12. Teams desig
 - University of Vermont
 - [SVSU](https://www.svsu.org/){:target="_blank"}
 - [MAUMS](https://maums.svsu.org/){:target="_blank"}
-- [Bennington Rotary](https://www.benningtonrotary.org/){:target="_blank"}
+- [Bennington Rotary Club](https://www.benningtonrotary.org/){:target="_blank"}
 - [Bennington Ramunto's](https://ramuntos.com/bennington-vt/){:target="_blank"}

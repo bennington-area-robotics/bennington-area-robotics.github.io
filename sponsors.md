@@ -13,8 +13,8 @@ We are grateful to the following organizations for their support of youth roboti
 - [Comprehensive Computing](https://www.comprehensive-computing.com/){:target="_blank"}
 - [UVM Extension Ag Engineering](https://blog.uvm.edu/cwcallah/){:target="_blank"}
 - [Gene Haas Foundation](https://www.ghaasfoundation.org/){:target="_blank"}
-- [Catamount Rotary](https://portal.clubrunner.ca/2912){:target="_blank"}
-- [Bennington Rotary](https://www.benningtonrotary.org/){:target="_blank"}
+- [Catamount Rotary Club](https://portal.clubrunner.ca/2912){:target="_blank"}
+- [Bennington Rotary Club](https://www.benningtonrotary.org/){:target="_blank"}
 - [Abacus Automation](https://abacusautomation.com/){:target="_blank"}
 
 ### In-kind support from:
