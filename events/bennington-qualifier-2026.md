@@ -3,7 +3,7 @@ layout: default
 title: Bennington Qualifier
 ---
 
-## Southern Vermont FTC Qualifier 2026
+## Bennington FTC Qualifier 2026
 
 An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement for VT teams to the Regional Championship.
 
