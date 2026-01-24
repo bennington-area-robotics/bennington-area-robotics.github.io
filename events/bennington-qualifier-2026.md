@@ -32,7 +32,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 | 7:15 AM | Pits Open |
 | 8:15 – 10:15 AM | Judging & Inspections |
 | 10:30 AM | Driver's Meeting |
-| 10:50 AM | Opening Ceremonies |
+| **10:50 AM** | **Opening Ceremonies** |
 | **11:20 AM – 12:15 PM** | **Qualification Matches** |
 | 12:15 – 12:45 PM | Lunch |
 | **1:00 – 1:55 PM** | **Qualification Matches** |
