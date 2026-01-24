@@ -15,6 +15,8 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Teams:** 11 teams from Vermont and Massachusetts
 
+**Contact:** [info@bamvt.com](mailto:info@bamvt.com?subject=Qualifier)
+
 ---
 
 ### Host Teams
@@ -60,14 +62,6 @@ FIRST Tech Challenge is a robotics program for students grades 7-12. Teams desig
 - [Introduction to FTC](https://youtu.be/y5NPp_5KHuk){:target="_blank"}
 - [DECODE Game Video](https://youtu.be/LCqWA6gSCXA){:target="_blank"}
 
-### Directions
-
-Mount Anthony Union Middle School
-747 East Rd
-Bennington, VT 05201
-
-[Get Directions](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
-
 ### Supported By
 
 - [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT){:target="_blank"}
@@ -75,7 +69,4 @@ Bennington, VT 05201
 - [SVSU](https://www.svsu.org/){:target="_blank"}
 - [MAUMS](https://maums.svsu.org/){:target="_blank"}
 - [Bennington Rotary](https://www.benningtonrotary.org/){:target="_blank"}
-
-### Contact
-
-For questions about the event, reach out to [info@bamvt.com](mailto:info@bamvt.com?subject=Robotics).
+- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/){:target="_blank"}
