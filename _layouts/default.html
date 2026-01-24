@@ -125,11 +125,9 @@
       background: var(--primary);
     }
     /* Highlight rows containing bold text */
-    tr:has(strong) {
-      background: #e8f4e8;
-    }
-    tr:has(strong):hover {
-      background: #d4e8d4;
+    tr:has(strong) td:first-child {
+      border-left: 4px solid var(--primary);
+      padding-left: calc(1rem - 4px);
     }
   </style>
 </head>
