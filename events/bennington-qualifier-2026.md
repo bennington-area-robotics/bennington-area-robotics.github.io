@@ -51,7 +51,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 | 16221 | Manchester Machine Makers | Manchester, VT |
 | 18650 | Cookie Clickers | Bennington, VT |
 | 24107 | Trash Pandas | Westford, VT |
-| 25730 | Mechanical Mounties 1 | Williamstown, MA |
+| 25730 | Mechanical Mounties 1 *(tentative)* | Williamstown, MA |
 | 32473 | Bennington Bolts and Biscuits | Bennington, VT |
 | 32818 | Wired Cats Devo | Saxtons River, VT |
 
