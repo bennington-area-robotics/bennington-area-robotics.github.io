@@ -62,11 +62,19 @@ FIRST Tech Challenge is a robotics program for students grades 7-12. Teams desig
 - [Introduction to FTC](https://youtu.be/y5NPp_5KHuk){:target="_blank"}
 - [DECODE Game Video](https://youtu.be/LCqWA6gSCXA){:target="_blank"}
 
-### Supported By
+### Event Sponsors
 
+**Financial support from:**
+- [Bennington Rotary Club](https://www.benningtonrotary.org/){:target="_blank"}
+
+**In-kind support from:**
+- [Comprehensive Computing](https://www.comprehensive-computing.com/){:target="_blank"}
+- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/){:target="_blank"}
+
+**Space and coordination:**
 - [FIRST in Vermont](https://www.firstinspires.org/team-event-search?program=FTC&stateprov=VT){:target="_blank"}
 - University of Vermont
 - [SVSU](https://www.svsu.org/){:target="_blank"}
 - [MAUMS](https://maums.svsu.org/){:target="_blank"}
-- [Bennington Rotary Club](https://www.benningtonrotary.org/){:target="_blank"}
-- [Bennington Ramunto's](https://ramuntos.com/bennington-vt/){:target="_blank"}
+
+We are also grateful to our [season sponsors](/sponsors).
