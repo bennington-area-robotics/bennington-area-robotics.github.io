@@ -24,7 +24,7 @@ We are grateful to the following organizations for their support of youth roboti
 
 - [Southwest Vermont Supervisory Union (SVSU)](https://www.svsu.org/){:target="_blank"}
 
-We are also grateful to our [event sponsors for the Bennington FTC Qualifier](/events/bennington-qualifier-2026#sponsors).
+We are also grateful to our [event sponsors for the Bennington FTC Qualifier](/events/bennington-qualifier-2026#event-sponsors).
 
 ---
 
