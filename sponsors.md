@@ -3,7 +3,7 @@ layout: default
 title: Sponsors
 ---
 
-## Our Sponsors (2025-2026)
+## Season Sponsors (2025-2026)
 
 We are grateful to the following organizations for their support of youth robotics in the greater Bennington area.
 
