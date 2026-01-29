@@ -17,7 +17,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Contact:** [info@bamvt.com](mailto:info@bamvt.com?subject=Qualifier)
 
-**Volunteer:** [Sign up with FIRST to volunteer](https://my.firstinspires.org/ExpressVolunteer/landing-page/3b31542a-db51-11f0-9a0f-00505699b848){:target="_blank"}
+**Volunteer:** [Sign up with FIRST to volunteer!](https://my.firstinspires.org/ExpressVolunteer/landing-page/3b31542a-db51-11f0-9a0f-00505699b848){:target="_blank"}
 
 ---
 
