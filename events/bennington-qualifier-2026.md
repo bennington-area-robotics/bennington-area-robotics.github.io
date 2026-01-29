@@ -7,7 +7,7 @@ title: Bennington Qualifier
 
 An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement for VT teams to the Regional Championship.
 
-**Date:** Saturday, January 31, 2026 (public event 10:50 AM – 3:30 PM, spectators welcome earlier)
+**Date:** Saturday, January 31, 2026, 7:15 - 3:30 PM, main events 10:50 AM – 3:30 PM
 
 **Location:** Mount Anthony Union Middle School (MAUMS), 747 East Rd, Bennington, VT 05201 \| [Map](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
