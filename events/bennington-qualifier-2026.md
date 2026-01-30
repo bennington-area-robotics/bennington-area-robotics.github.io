@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bennington Qualifier
+description: FTC Level 1 Qualifying Tournament on January 31, 2026 at Mount Anthony Union Middle School in Bennington, VT.
 ---
 
 ## Bennington FTC Qualifier 2026
