@@ -6,6 +6,8 @@ description: FTC Level 1 Qualifying Tournament on January 31, 2026 at MAUMS in B
 
 ## Bennington FTC Qualifier 2026
 
+*This event has been completed. Thank you to all the teams, volunteers, and sponsors who made it possible!*
+
 An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement for VT teams to the Regional Championship.
 
 **Date:** Saturday, January 31, 2026
@@ -19,8 +21,6 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 **Teams:** 11 teams from Vermont and Massachusetts
 
 **Contact:** [info@bamvt.com](mailto:info@bamvt.com?subject=Qualifier)
-
-**Volunteer:** [Sign up with FIRST to volunteer!](https://my.firstinspires.org/ExpressVolunteer/landing-page/3b31542a-db51-11f0-9a0f-00505699b848){:target="_blank"}
 
 ---
 
