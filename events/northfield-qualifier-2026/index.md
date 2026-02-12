@@ -12,7 +12,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Time:** 8:00 AM – 5:00 PM overall, 11:00 AM – 4:30 PM for main events
 
-**Location:** Norwich University, Northfield, VT \| [Venue Map](venue-map.pdf){:target="_blank"}
+**Location:** Norwich University, Northfield, VT \| [Campus Map](campus-map.pdf){:target="_blank"} \| [Venue Map](plumley-layout.pdf){:target="_blank"}
 
 **Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season)
 
@@ -26,15 +26,17 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 |------|-------|
 | 7:30 AM | Volunteer Arrival |
 | 8:00 AM | Doors Open / Pits Open |
-| 8:15 AM | Inspections Begin |
-| 8:30 AM | Judging Sessions Begin |
+| 8:15 AM – 10:00 AM | Inspections |
+| 8:30 AM – 10:45 AM | Judging ([Schedule](judging-schedule.pdf){:target="_blank"}) |
 | 10:45 AM | Drivers Meeting |
-| **11:00 AM** | **Opening Ceremony** |
+| **11:00 AM** | **Opening Ceremonies** |
 | **11:30 AM – 12:00 PM** | **Qualification Matches** |
 | 12:00 – 12:45 PM | Lunch |
 | **12:45 – 3:00 PM** | **Qualification Matches** |
 | **3:15 – 4:30 PM** | **Playoffs & Awards** |
 | 4:30 – 5:00 PM | Pack Out & Venue Cleanup |
+
+**Note:** Competition fields and team pits are located in Plumley Armory. Judging sessions take place in Mack Hall (rooms 305, 306, 307), a separate building. Teams will need to carry their robots between buildings for judging.
 
 ### Participating Teams
 
@@ -51,8 +53,8 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 | 18650 | Cookie Clickers |
 | 21577 | Bulldog Robotics |
 | 24782 | Robo Raiders II |
-| 26726 | Lamoille Robotics |
-| 28017 | SparTechs |
+| 26726 | Screwbert's Pit Crew |
+| 28017 | SPARTECHS |
 | 31719 | Flying Tigers |
 | 32473 | Bennington Bolts and Biscuits |
 
