@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="highlight">
-Come watch local students compete with robots they designed and built themselves at the <a href="events/northfield-qualifier-2026">Northfield FTC Qualifier</a> on Sunday 2/15/2026 at Norwich University in Northfield VT!
+Join us for the <a href="events/northfield-qualifier-2026">Northfield FTC Qualifier</a> on Sunday 2/15/2026 at Norwich University in Northfield VT!
 </div>
 
 ## Upcoming Events
