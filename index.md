@@ -3,9 +3,13 @@ layout: default
 title: Home
 ---
 
+<div class="highlight">
+Come watch local students compete with robots they designed and built themselves at the <a href="events/northfield-qualifier-2026">Northfield FTC Qualifier</a> on Sunday 2/15/2026 at Norwich University in Northfield VT!
+</div>
+
 ## Upcoming Events
 
-- **Sun 2/15/2026** – Northfield FTC Qualifier at Norwich University
+- **Sun 2/15/2026** – [Northfield FTC Qualifier](events/northfield-qualifier-2026) at Norwich University
 - **Sat 3/7/2026** – Vermont FTC State Championship at South Burlington HS
 
 ## Past Events
