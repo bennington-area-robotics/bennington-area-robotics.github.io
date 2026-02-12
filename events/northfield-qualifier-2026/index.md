@@ -18,8 +18,6 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Teams:** 15 teams from Vermont
 
-**Contact:** [info@bamvt.com](mailto:info@bamvt.com?subject=Qualifier)
-
 ---
 
 ### Schedule
@@ -38,7 +36,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 | **3:15 – 4:30 PM** | **Playoffs & Awards** |
 | 4:30 – 5:00 PM | Pack Out & Venue Cleanup |
 
-### Registered Teams
+### Participating Teams
 
 | Team | Name |
 |------|------|
