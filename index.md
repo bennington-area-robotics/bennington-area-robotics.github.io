@@ -4,16 +4,16 @@ title: Home
 ---
 
 <div class="highlight">
-Join us for the <a href="events/northfield-qualifier-2026">Northfield FTC Qualifier</a> on Sunday 2/15/2026 at Norwich University in Northfield VT!
+Next up: <a href="events/state-championship-2026">Vermont FTC State Championship</a> on Saturday 3/7/2026 at South Burlington HS!
 </div>
 
 ## Upcoming Events
 
-- **Sun 2/15/2026** – [Northfield FTC Qualifier](events/northfield-qualifier-2026) at Norwich University
-- **Sat 3/7/2026** – Vermont FTC State Championship at South Burlington HS
+- **Sat 3/7/2026** – [Vermont FTC State Championship](events/state-championship-2026) at South Burlington HS
 
 ## Past Events
 
+- **Sun 2/15/2026** – [Northfield FTC Qualifier](events/northfield-qualifier-2026) at Norwich University
 - **Sat 1/31/2026** – [Bennington FTC Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
 ## Meeting Schedule

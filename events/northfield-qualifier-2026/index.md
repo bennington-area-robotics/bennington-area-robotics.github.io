@@ -6,6 +6,8 @@ description: FTC Level 1 Qualifying Tournament on February 15, 2026 at Norwich U
 
 ## Northfield FTC Qualifier 2026
 
+*This event has been completed. Thank you to all the teams, volunteers, and sponsors who made it possible!*
+
 An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement for VT teams to the Regional Championship.
 
 **Date:** Sunday, February 15, 2026
@@ -28,7 +30,7 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 | 8:00 AM | Doors Open / Pits Open |
 | 8:15 AM – 10:00 AM | Inspections |
 | 8:30 AM – 10:45 AM | Judging ([Schedule](judging-schedule.pdf){:target="_blank"}) |
-| 10:45 AM | Drivers Meeting |
+| 10:45 AM | Driver's Meeting |
 | **11:00 AM** | **Opening Ceremonies** |
 | **11:30 AM – 12:00 PM** | **Qualification Matches** |
 | 12:00 – 12:45 PM | Lunch |
