@@ -20,6 +20,8 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Teams:** 15 teams from Vermont
 
+**FTC Event Page:** [USVTNOQ](https://ftc-events.firstinspires.org/2025/USVTNOQ){:target="_blank"}
+
 ---
 
 ### Schedule

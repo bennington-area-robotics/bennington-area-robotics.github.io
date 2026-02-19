@@ -20,6 +20,8 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Teams:** 11 teams from Vermont and Massachusetts
 
+**FTC Event Page:** [USVTBEQ](https://ftc-events.firstinspires.org/2025/USVTBEQ){:target="_blank"}
+
 **Contact:** [info@bamvt.com](mailto:info@bamvt.com?subject=Qualifier)
 
 ---
