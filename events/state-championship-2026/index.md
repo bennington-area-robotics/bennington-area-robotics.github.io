@@ -12,9 +12,7 @@ The official FIRST Tech Challenge State Championship for Vermont, featuring top 
 
 **Location:** South Burlington High School, South Burlington, VT
 
-**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season)
-
-**FTC Event Page:** [USVTCMP](https://ftc-events.firstinspires.org/2025/USVTCMP){:target="_blank"}
+**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season) \| [Event Page](https://ftc-events.firstinspires.org/2025/USVTCMP){:target="_blank"}
 
 ---
 

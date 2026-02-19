@@ -16,11 +16,9 @@ An official FIRST Tech Challenge Level 1 Qualifying Tournament, with advancement
 
 **Location:** Norwich University, Northfield, VT \| [Campus Map](campus-map.pdf){:target="_blank"} \| [Venue Map](plumley-layout.pdf){:target="_blank"}
 
-**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season)
+**Game:** [FTC DECODE](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"} (2025-2026 season) \| [Event Page](https://ftc-events.firstinspires.org/2025/USVTNOQ){:target="_blank"}
 
 **Teams:** 15 teams from Vermont
-
-**FTC Event Page:** [USVTNOQ](https://ftc-events.firstinspires.org/2025/USVTNOQ){:target="_blank"}
 
 ---
 
