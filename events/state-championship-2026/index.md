@@ -6,17 +6,74 @@ description: FTC State Championship on March 7, 2026 at South Burlington High Sc
 
 ## Vermont FTC State Championship 2026
 
-The official FIRST Tech Challenge State Championship for Vermont, featuring top teams advancing from qualifying tournaments.
+The official FIRST Tech Challenge Regional Championship for Vermont, featuring top teams advancing from qualifying tournaments.
 
 **Date:** Saturday, March 7, 2026
+
+**Time:** 7:00 AM – 6:00 PM overall, 10:30 AM – 6:00 PM for main events
 
 **Location:** South Burlington High School, South Burlington, VT
 
 **FTC Event Page:** [USVTCMP](https://ftc-events.firstinspires.org/2025/USVTCMP){:target="_blank"} \| [Game Info](https://www.firstinspires.org/programs/ftc/game-and-season){:target="_blank"}
 
+**Teams:** 27 teams from Vermont
+
+**Event Program:** [PDF](vt-rcmp-info-2026-0303.pdf){:target="_blank"}
+
 ---
 
-*Schedule, team list, and additional details will be posted as they become available.*
+### Schedule
+
+| Time | Event |
+|------|-------|
+| 7:00 AM | Pit Area Open |
+| 7:30 – 10:25 AM | Judging (assigned time slots available at Pit Admin) |
+| 8:15 AM | Robot Inspections Open |
+| 8:15 AM – 4:00 PM | Practice Fields Open |
+| 9:00 – 10:00 AM | Fields Open for Calibration and Measurement |
+| 10:15 AM | Drivers' Meeting |
+| **10:30 – 11:00 AM** | **Opening Ceremony, Keynote** |
+| **11:00 AM – 12:30 PM** | **Qualification Matches** |
+| 12:30 – 1:00 PM | Lunch Break |
+| **1:00 – 2:48 PM** | **Qualification Matches** |
+| **3:00 PM** | **Alliance Selection** |
+| **4:00 – 6:00 PM** | **Playoff Matches & Awards** |
+
+### Keynote Speaker
+
+**Colin Riggs** – Founder and CEO of Rigorous Technology, an industrial robotics company focused on bringing advanced robotic software technology to US manufacturers. Previously led product development at Greensea IQ, a Vermont-based marine robotics company.
+
+### Participating Teams
+
+| Team | Name | Location |
+|------|------|----------|
+| 3397 | HiveMind Robotics | Essex Junction, VT |
+| 4946 | Robo Raiders | Montpelier, VT |
+| 5741 | RoboHawks | Hinesburg, VT |
+| 6731 | Ringers | Saint Albans, VT |
+| 7418 | Batteries Not Included | South Burlington, VT |
+| 8304 | Wired Cats | Saxtons River, VT |
+| 9622 | Maple Mechanics | Rutland, VT |
+| 9721 | Green Mountain Gears | South Burlington, VT |
+| 10899 | Mansfield Mechanics United | Jericho, VT |
+| 14251 | Capital Robotics | Montpelier, VT |
+| 16221 | Manchester Machine Makers | Bondville, VT |
+| 18351 | Robo Raiders III | East Montpelier, VT |
+| 18616 | River Valley RAD's FTC Team | Springfield, VT |
+| 18649 | Green Mtn Gearheads | Hyde Park, VT |
+| 18650 | Cookie Clickers | Bennington, VT |
+| 21577 | Bulldog Robotics | Burlington, VT |
+| 22683 | JV RedHawks | Hinesburg, VT |
+| 24107 | Trash Pandas | Westford, VT |
+| 24782 | Robo Raiders II | Montpelier, VT |
+| 25206 | Vikings | Lyndon Center, VT |
+| 26726 | Lamoille Robotics | Hyde Park, VT |
+| 28017 | Winooski Middle/High School | Winooski, VT |
+| 30656 | The Interns | South Burlington, VT |
+| 31126 | LCWS Gnomes | Shelburne, VT |
+| 31719 | Flying Tigers | Middlebury, VT |
+| 32473 | Bennington Bolts and Biscuits | Bennington, VT |
+| 32818 | Wired Cats Devo | Saxtons River, VT |
 
 ### Qualifying Events
 
