@@ -10,7 +10,7 @@ The official FIRST Tech Challenge Regional Championship for Vermont.
 
 **Date:** Saturday, March 7, 2026
 
-**Time:** 7:00 AM – 6:00 PM overall, 10:30 AM – 6:00 PM for main events
+**Time:** 7:30 AM – 6:00 PM overall, 10:30 AM – 6:00 PM for main events
 
 **Location:** South Burlington High School, South Burlington, VT
 
@@ -26,15 +26,15 @@ The official FIRST Tech Challenge Regional Championship for Vermont.
 
 | Time | Event |
 |------|-------|
-| 7:00 AM | Pit Area Open |
-| 7:30 – 10:25 AM | Judging (assigned time slots available at Pit Admin) |
-| 8:15 AM | Robot Inspections Open |
-| 8:15 AM – 4:00 PM | Practice Fields Open |
-| 9:00 – 10:00 AM | Fields Open for Calibration and Measurement |
-| 10:15 AM | Drivers' Meeting |
+| 7:30 AM | Pit area open |
+| 8:00 – 10:25 AM | Judging (assigned time slots available at Pit Admin) |
+| 8:00 – 10:00 AM | Robot inspections open |
+| 8:15 AM – 4:00 PM | Practice fields open |
+| 9:00 – 10:00 AM | Fields open for calibration and measurement |
+| 10:15 AM | Drivers' meeting |
 | **10:30 – 11:00 AM** | **Opening Ceremony, Keynote** |
 | **11:00 AM – 12:30 PM** | **Qualification Matches** |
-| 12:30 – 1:00 PM | Lunch Break |
+| 12:30 – 1:00 PM | Lunch break |
 | **1:00 – 2:48 PM** | **Qualification Matches** |
 | **3:00 PM** | **Alliance Selection** |
 | **4:00 – 6:00 PM** | **Playoff Matches & Awards** |
