@@ -75,6 +75,12 @@ The official FIRST Tech Challenge Regional Championship for Vermont.
 | 32473 | Bennington Bolts and Biscuits | Bennington, VT |
 | 32818 | Wired Cats Devo | Saxtons River, VT |
 
+### Results
+
+**Inspire Award (State Champion):** 18650 Cookie Clickers – advances to the FIRST World Championship in Houston TX, April 29 – May 2
+
+**Advancement to New England Premier Event** (April 17–18, Big E, West Springfield MA)**:** 32473 Bennington Bolts and Biscuits
+
 ### Earlier Events
 
 - [Bennington FTC Qualifier](../bennington-qualifier-2026) – January 31, 2026

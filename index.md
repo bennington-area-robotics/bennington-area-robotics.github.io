@@ -4,15 +4,18 @@ title: Home
 ---
 
 <div class="highlight">
-Next up: <a href="events/state-championship-2026">Vermont FTC State Championship</a> on Saturday 3/7/2026 at South Burlington HS!
+18650 won the <a href="events/state-championship-2026">VT State Championship</a> Inspire Award and advances to the <strong>World Championship</strong> in Houston TX, April 29 – May 2!<br>
+32473 advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
 </div>
 
 ## Upcoming Events
 
-- **Sat 3/7/2026** – [Vermont FTC State Championship](events/state-championship-2026) at South Burlington HS
+- **Fri–Sat 4/17–18/2026** – New England Premier Event at the Big E, West Springfield MA (32473)
+- **Wed–Sat 4/29–5/2/2026** – FIRST World Championship in Houston TX (18650)
 
 ## Past Events
 
+- **Sat 3/7/2026** – [Vermont FTC State Championship](events/state-championship-2026) at South Burlington HS
 - **Sun 2/15/2026** – [Northfield FTC Qualifier](events/northfield-qualifier-2026) at Norwich University
 - **Sat 1/31/2026** – [Bennington FTC Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
@@ -25,7 +28,7 @@ Next up: <a href="events/state-championship-2026">Vermont FTC State Championship
 
 ## Teams
 
-- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, winning alliance at the Vermont Championship in 2025
+- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, Inspire Award winners at the 2026 Vermont State Championship
 - **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – formed in 2025
 
 ## Links
