@@ -65,14 +65,14 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 
 ## Upcoming Events
 
-- **Fri–Sat 4/17–18/2026** – New England Premier Event at the Big E, West Springfield MA (32473)
+- **Fri–Sat 4/17–18/2026** – [New England Premier Event](https://www.nefirst.org/ftc-premier){:target="_blank"} at the Big E, West Springfield MA (32473)
 - **Wed–Sat 4/29–5/2/2026** – FIRST World Championship in Houston TX (18650)
 
 ## Past Events
 
-- **Sat 3/7/2026** – [Vermont FTC State Championship](events/state-championship-2026) at South Burlington HS
-- **Sun 2/15/2026** – [Northfield FTC Qualifier](events/northfield-qualifier-2026) at Norwich University
-- **Sat 1/31/2026** – [Bennington FTC Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
+- **Sat 3/7/2026** – [Vermont Championship](events/state-championship-2026) at South Burlington HS
+- **Sun 2/15/2026** – [Northfield Qualifier](events/northfield-qualifier-2026) at Norwich University
+- **Sat 1/31/2026** – [Bennington Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
 ## Meeting Schedule
 
