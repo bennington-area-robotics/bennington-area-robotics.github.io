@@ -4,8 +4,10 @@ title: Home
 ---
 
 <div class="highlight">
-FTC 18650 Cookie Clickers won the <a href="events/state-championship-2026">Vermont Championship</a> Inspire Award and advances to the <strong>World Championship</strong> in Houston TX, April 29 – May 2!<br>
-FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!<br>
+FTC 18650 Cookie Clickers won the <a href="events/state-championship-2026">Vermont Championship</a> Inspire Award and advances to the <strong>World Championship</strong> in Houston TX, April 29 – May 2!
+<br><br>
+FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
+<br><br>
 <a href="https://www.paypal.com/donate/?business=LU3XQCQ2VQGL8&no_recurring=0&item_name=on+behalf+of+Bennington+Area+Makers+to+support+local+youth+robotics+including+FTC+Team+18650%2C+the+Cookie+Clickers%21&currency_code=USD" target="_blank">Support us with a donation!</a>
 </div>
 
