@@ -16,13 +16,11 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-62.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-105.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-106.jpg" alt="VT State Championship 2026" loading="lazy"></div>
-    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8748.jpeg" alt="Cookie Clickers 18650 robot close-up" loading="lazy"></div>
 
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-136.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-138.jpg" alt="VT State Championship 2026" loading="lazy"></div>
 
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-164.jpg" alt="VT State Championship 2026" loading="lazy"></div>
-    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8129.jpeg" alt="Robot on field with game piece" loading="lazy"></div>
 
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-168.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-189.jpg" alt="VT State Championship 2026" loading="lazy"></div>
@@ -34,7 +32,6 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 
 
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-197.jpg" alt="VT State Championship 2026" loading="lazy"></div>
-    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_2144.jpeg" alt="Students working on robot at the field" loading="lazy"></div>
 
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-206.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/2026_FTC-218.jpg" alt="VT State Championship 2026" loading="lazy"></div>
@@ -44,7 +41,10 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
     <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8935.jpg" alt="VT State Championship 2026" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8839.jpeg" alt="Cookie Clickers robot intake mechanism" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8796.jpeg" alt="Cookie Clickers robot on practice field" loading="lazy"></div>
+    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_2144.jpeg" alt="Students working on robot at the field" loading="lazy"></div>
+    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8748.jpeg" alt="Cookie Clickers 18650 robot close-up" loading="lazy"></div>
     <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8480.jpeg" alt="Cookie Clickers robot sample collector" loading="lazy"></div>
+    <div class="carousel-slide"><img src="events/state-championship-2026/images/IMG_8129.jpeg" alt="Robot on field with game piece" loading="lazy"></div>
   </div>
   <button class="carousel-btn next" onclick="document.getElementById('carousel-track').scrollBy({left: document.getElementById('carousel-track').clientWidth, behavior: 'smooth'})">&rsaquo;</button>
 </div>
