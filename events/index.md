@@ -12,6 +12,6 @@ title: Events
 
 ### Past
 
-- **Sat 3/7/2026** — [Vermont Championship](state-championship-2026) at South Burlington HS
-- **Sun 2/15/2026** — [Northfield Qualifier](northfield-qualifier-2026) at Norwich University
-- **Sat 1/31/2026** — [Bennington Qualifier](bennington-qualifier-2026) at MAUMS, Bennington
+- **Sat 3/7/2026** — [Vermont Championship](/events/state-championship-2026) at South Burlington HS
+- **Sun 2/15/2026** — [Northfield Qualifier](/events/northfield-qualifier-2026) at Norwich University
+- **Sat 1/31/2026** — [Bennington Qualifier](/events/bennington-qualifier-2026) at MAUMS, Bennington
