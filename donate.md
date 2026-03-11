@@ -17,8 +17,8 @@ Donations are tax-deductible to the extent permitted by law. EIN 84-5124653.
 
 Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
-> The Bennington Area Makers, Inc.
-> PO Box 4332
+> The Bennington Area Makers, Inc.<br>
+> PO Box 4332<br>
 > Bennington, VT 05201
 
 ### Questions?
