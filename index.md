@@ -4,9 +4,9 @@ title: Home
 ---
 
 <div class="highlight">
-FTC 18650 Cookie Clickers advances to the <strong>FIRST World Championship</strong> in Houston TX, April 29 – May 2!
+Team 18650 Cookie Clickers advances to the <strong>FIRST World Championship</strong> in Houston TX, April 29 – May 2!
 <br><br>
-FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
+Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
 <br><br>
 <a href="/donate">Support us with a tax-deductible donation!</a>
 </div>
@@ -83,8 +83,8 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 
 ## Teams
 
-- **[FTC 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, Inspire Award winners at the 2026 Vermont State Championship
-- **[FTC 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – formed in 2025
+- **[FTC Team 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, Inspire Award winners at the 2026 Vermont State Championship
+- **[FTC Team 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – formed in 2025
 
 ## Links
 
@@ -106,7 +106,7 @@ Team members design, build, and program their own robots to perform tasks and sc
 
 Students work directly with technical mentors from the local community, including mechanical engineers, automation engineers, and software developers.
 
-<p style="text-align: center; font-style: italic; margin-bottom: 0.5em;">FTC 18650 Cookie Clickers in playoff match 4 of the <a href="https://ftc-events.firstinspires.org/2024/USVTCMP" target="_blank">2024–2025 VT State Championship</a>.</p>
+<p style="text-align: center; font-style: italic; margin-bottom: 0.5em;">Team 18650 Cookie Clickers in playoff match 4 of the <a href="https://ftc-events.firstinspires.org/2024/USVTCMP" target="_blank">2024–2025 VT State Championship</a>.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SjT1XGYhEfc?start=19364" title="2025 VT State Championship Playoff Match" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
