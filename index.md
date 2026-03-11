@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="highlight">
-FTC 18650 Cookie Clickers advances to the <strong>FIRST Championship</strong> in Houston TX, April 29 – May 2!
+FTC 18650 Cookie Clickers advances to the <strong>FIRST World Championship</strong> in Houston TX, April 29 – May 2!
 <br><br>
 FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
 <br><br>
@@ -65,8 +65,8 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 
 ## Upcoming Events
 
+- **Wed–Sat 4/29–5/2/2026** – [FIRST World Championship](https://www.firstchampionship.org/){:target="_blank"} in Houston TX (18650)
 - **Fri–Sat 4/17–18/2026** – [New England Premier Event](https://www.nefirst.org/ftc-premier){:target="_blank"} at the Big E, West Springfield MA (32473)
-- **Wed–Sat 4/29–5/2/2026** – FIRST World Championship in Houston TX (18650)
 
 ## Past Events
 
@@ -96,6 +96,8 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 
 Bennington Area Robotics is a community-based youth robotics group, drawing middle and high-school aged students from Bennington and surrounding towns, including North Bennington, Shaftsbury, Hoosick Falls and Cambridge.
 
+The students — from southwestern Vermont and neighboring New York — design, build, and program their robots themselves, with guidance from community mentors. Team 18650 Cookie Clickers is the first Bennington-area team ever to qualify for the FIRST World Championship, where they will compete against established programs with years of institutional support behind them.
+
 We participate in [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc){:target="_blank"} (FTC), an annual robotics competition where four robots race to collect and score game pieces on a 12'x12' playing field.
 
 Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.**, a 501(c)(3) nonprofit organization (EIN 84-5124653). Donations are tax-deductible to the extent permitted by law. To donate by check, make payable to *The Bennington Area Makers, Inc.* and mail to PO Box 4332, Bennington, VT 05201.
@@ -104,7 +106,7 @@ Team members design, build, and program their own robots to perform tasks and sc
 
 Students work directly with technical mentors from the local community, including mechanical engineers, automation engineers, and software developers.
 
-<p style="text-align: center; font-style: italic; margin-bottom: 0.5em;">FTC 18650 Cookie Clickers in playoff match 4 of the <a href="https://ftc-events.firstinspires.org/2024/USVTCMP" target="_blank">VT State Championship</a> in Feb 2025.</p>
+<p style="text-align: center; font-style: italic; margin-bottom: 0.5em;">FTC 18650 Cookie Clickers in playoff match 4 of the <a href="https://ftc-events.firstinspires.org/2024/USVTCMP" target="_blank">2024–2025 VT State Championship</a>.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SjT1XGYhEfc?start=19364" title="2025 VT State Championship Playoff Match" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

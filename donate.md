@@ -9,11 +9,11 @@ Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.**, a
 
 Donations are tax-deductible to the extent permitted by law. EIN 84-5124653.
 
-### Help Send Our Teams to the Next Competition
+### Help Send Our Students to the World Championship
 
 This season, both teams are advancing to out-of-state events.
 
-**Team 18650 Cookie Clickers** is advancing to the [FIRST World Championship](https://www.firstchampionship.org/){:target="_blank"} in Houston, TX — the first Bennington team ever to do so. Getting 9 students and mentors there will cost an estimated **$20,000**, covering registration, flights, hotel, and meals.
+**Team 18650 Cookie Clickers** is advancing to the [FIRST World Championship](https://www.firstchampionship.org/){:target="_blank"} in Houston, TX — the first Bennington team ever to do so. Getting 6 students and 3 mentors there will cost an estimated **$20,000**, covering registration, flights, hotel, and meals.
 
 **Team 32473 Bennington Bolts and Biscuits** is advancing to the [New England Premier Event](https://www.nefirst.org/ftc-premier){:target="_blank"} at the Big E in West Springfield, MA. Travel for 7 students and mentors will cost an estimated **$3,500**, covering registration, hotel, and meals.
 
