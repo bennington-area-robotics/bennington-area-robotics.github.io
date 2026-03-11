@@ -50,6 +50,22 @@ FTC 32473 Bennington Bolts and Biscuits advances to the <strong>New England Prem
 </div>
 <p style="text-align: center; font-style: italic; margin-top: 0;">Photos from the 2026 Vermont FTC State Championship, courtesy of UVM.</p>
 
+<script>
+(function() {
+  var track = document.getElementById('carousel-track');
+  var interval = setInterval(function() {
+    if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 2) {
+      track.scrollTo({left: 0, behavior: 'smooth'});
+    } else {
+      track.scrollBy({left: track.clientWidth, behavior: 'smooth'});
+    }
+  }, 5000);
+  track.addEventListener('pointerdown', function() { clearInterval(interval); });
+  document.querySelector('#carousel .prev').addEventListener('click', function() { clearInterval(interval); });
+  document.querySelector('#carousel .next').addEventListener('click', function() { clearInterval(interval); });
+})();
+</script>
+
 ## Upcoming Events
 
 - **Fri–Sat 4/17–18/2026** – New England Premier Event at the Big E, West Springfield MA (32473)
