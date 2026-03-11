@@ -3,6 +3,10 @@ layout: default
 title: Sponsors
 ---
 
+<div class="highlight">
+<strong>Support youth robotics in Bennington!</strong> <a href="https://www.paypal.com/donate/?business=LU3XQCQ2VQGL8&no_recurring=0&item_name=on+behalf+of+Bennington+Area+Makers+to+support+local+youth+robotics+including+FTC+Team+18650%2C+the+Cookie+Clickers%21&currency_code=USD" target="_blank">Donate via PayPal</a>
+</div>
+
 ## Season Sponsors (2025-2026)
 
 We are grateful to the following organizations for their support of youth robotics in the greater Bennington area.
