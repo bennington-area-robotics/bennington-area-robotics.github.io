@@ -83,7 +83,7 @@ Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Pre
 
 ## Teams
 
-- **[FTC Team 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, Inspire Award winners at the 2026 Vermont Championship
+- **[FTC Team 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, 1st ranked team and Inspire Award winners at the 2026 Vermont Championship.
 - **[FTC Team 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – formed in 2025, 7th ranked team out of 25 at the 2026 Vermont Championship.
 
 ## Links
