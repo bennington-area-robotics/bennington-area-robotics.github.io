@@ -74,6 +74,11 @@ Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Pre
 - **Sun 2/15/2026** – [Northfield Qualifier](events/northfield-qualifier-2026) at Norwich University
 - **Sat 1/31/2026** – [Bennington Qualifier](events/bennington-qualifier-2026) at [MAUMS](https://maps.app.goo.gl/zE9WbCbWNENq3pGUA){:target="_blank"}
 
+## In the News
+
+- **3/13/2026** – [Bennington area robotics teams shine at Tech Challenge](https://www.benningtonbanner.com/local-news/bennington-area-robotics-teams-shine-at-tech-challenge/article_6e2ff82e-e0ae-4fed-a300-153dac5ce625.html){:target="_blank"} – Bennington Banner
+- **3/9/2026** – [Robots Rule the Gym](https://www.uvm.edu/cems/news/robots-rule-gym){:target="_blank"} – UVM CEMS (Chris Dissinger)
+
 ## Meeting Schedule
 
 - **Sundays** 2:00 – 5:00 PM
