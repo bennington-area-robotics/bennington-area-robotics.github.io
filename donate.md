@@ -39,8 +39,6 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 <small>EIN 84-5124653</small>
 
-<h3>Help Us Get There</h3>
-
 <div class="donation-progress">
   <span class="raised">$1,600 raised</span>
   <span class="goal"> of $23,500 goal &middot; 4 donations</span>
