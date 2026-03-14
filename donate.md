@@ -42,10 +42,10 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 ### Post-Season Advancement Fund
 
 <div class="donation-progress">
-  <span class="raised">$1,600 raised</span>
-  <span class="goal"> of $23,500 goal &middot; 4 donations</span>
+  <span class="raised">$1,700 raised</span>
+  <span class="goal"> of $23,500 goal &middot; 5 donations</span>
   <div class="donation-progress-bar">
-    <div class="fill" style="width: 6.8%"></div>
+    <div class="fill" style="width: 7.2%"></div>
   </div>
 </div>
 
@@ -55,6 +55,20 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
     <div class="donation-detail">
       <span class="donor-name">Alexandra</span> donated <span class="donation-amount">$100</span> to Robotics General Fund
       <div class="donation-meta">Mar 14</div>
+    </div>
+  </li>
+  <li>
+    <div class="donation-avatar">A</div>
+    <div class="donation-detail">
+      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$100</span> to Cookie Clickers
+      <div class="donation-meta">Mar 13</div>
+    </div>
+  </li>
+  <li>
+    <div class="donation-avatar">A</div>
+    <div class="donation-detail">
+      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
+      <div class="donation-meta">Mar 12</div>
     </div>
   </li>
   <li>
@@ -69,12 +83,6 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
     <div class="donation-detail">
       <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
       <div class="donation-meta">Mar 7 &middot; Event registration support</div>
-    </div>
-  </li>
-  <li>
-    <div class="donation-avatar">A</div>
-    <div class="donation-detail">
-      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
     </div>
   </li>
 </ul>
