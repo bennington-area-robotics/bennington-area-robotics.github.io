@@ -67,7 +67,7 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 ### About Us
 
-Your donation helps fund robot parts, competition fees, and educational materials for middle and high school students in the Bennington Vermont area. All donations are tax-deductible to the extent permitted by law.
+Your donation helps fund robot parts, competition fees, travel expenses, and educational materials for middle and high school students in the Bennington Vermont area. All donations are tax-deductible to the extent permitted by law.
 
 Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit with EIN 84-5124653.
 
