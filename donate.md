@@ -41,51 +41,24 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 ### Post-Season Advancement Fund
 
+{% assign total = 0 %}{% assign count = site.data.donations.donations | size %}{% for d in site.data.donations.donations %}{% assign total = total | plus: d.amount %}{% endfor %}{% assign goal = site.data.donations.goal %}{% assign pct = total | times: 100 | divided_by: goal %}
 <div class="donation-progress">
-  <span class="raised">$1,700 raised</span>
-  <span class="goal"> of $23,500 goal &middot; 5 donations</span>
+  <span class="raised">${{ total | replace: '.0', '' }} raised</span>
+  <span class="goal"> of ${{ goal | replace: '.0', '' }} goal &middot; {{ count }} donation{% if count != 1 %}s{% endif %}</span>
   <div class="donation-progress-bar">
-    <div class="fill" style="width: 7.2%"></div>
+    <div class="fill" style="width: {{ pct }}%"></div>
   </div>
 </div>
 
 <ul class="donation-feed">
-  <li>
-    <div class="donation-avatar">A</div>
+{% for d in site.data.donations.donations %}  <li>
+    <div class="donation-avatar">{{ d.donor | slice: 0 }}</div>
     <div class="donation-detail">
-      <span class="donor-name">Alexandra</span> donated <span class="donation-amount">$100</span> to Robotics General Fund
-      <div class="donation-meta">Mar 14</div>
+      <span class="donor-name">{{ d.donor }}</span> donated <span class="donation-amount">${{ d.amount }}</span> to {{ d.recipient }}
+      <div class="donation-meta">{{ d.date | date: "%b %-d" }}{% if d.memo %} &middot; {{ d.memo }}{% endif %}</div>
     </div>
   </li>
-  <li>
-    <div class="donation-avatar">A</div>
-    <div class="donation-detail">
-      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$100</span> to Cookie Clickers
-      <div class="donation-meta">Mar 13</div>
-    </div>
-  </li>
-  <li>
-    <div class="donation-avatar">A</div>
-    <div class="donation-detail">
-      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
-      <div class="donation-meta">Mar 12</div>
-    </div>
-  </li>
-  <li>
-    <div class="donation-avatar">F</div>
-    <div class="donation-detail">
-      <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Cookie Clickers
-      <div class="donation-meta">Mar 7 &middot; Event registration support</div>
-    </div>
-  </li>
-  <li>
-    <div class="donation-avatar">F</div>
-    <div class="donation-detail">
-      <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
-      <div class="donation-meta">Mar 7 &middot; Event registration support</div>
-    </div>
-  </li>
-</ul>
+{% endfor %}</ul>
 
 ### Questions?
 

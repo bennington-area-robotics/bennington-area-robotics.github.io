@@ -1,0 +1,37 @@
+{
+  "goal": 23500,
+  "donations": [
+    {
+      "donor": "Alexandra",
+      "amount": 100,
+      "recipient": "Robotics General Fund",
+      "date": "2026-03-14"
+    },
+    {
+      "donor": "Anonymous",
+      "amount": 100,
+      "recipient": "Cookie Clickers",
+      "date": "2026-03-13"
+    },
+    {
+      "donor": "Anonymous",
+      "amount": 500,
+      "recipient": "Bolts and Biscuits",
+      "date": "2026-03-12"
+    },
+    {
+      "donor": "FIRSTinVT",
+      "amount": 500,
+      "recipient": "Cookie Clickers",
+      "date": "2026-03-07",
+      "memo": "Event registration support"
+    },
+    {
+      "donor": "FIRSTinVT",
+      "amount": 500,
+      "recipient": "Bolts and Biscuits",
+      "date": "2026-03-07",
+      "memo": "Event registration support"
+    }
+  ]
+}
