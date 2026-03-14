@@ -37,6 +37,24 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 <small>EIN 84-5124653</small>
 
+### Help Us Get There
+
+**$1,600 raised** of $23,500 goal · 4 donations
+
+**Anonymous** donated $100 to Cookie Clickers · Mar 14
+{: .donation}
+
+**FIRSTinVT** donated $500 to Cookie Clickers · Mar 7
+*"Event registration support"*
+{: .donation}
+
+**FIRSTinVT** donated $500 to Bolts and Biscuits · Mar 7
+*"Event registration support"*
+{: .donation}
+
+**Anonymous** donated $500 to Bolts and Biscuits
+{: .donation}
+
 ### Questions?
 
 Email us at [info@bamvt.com](mailto:info@bamvt.com?subject=Donation%20Inquiry).
