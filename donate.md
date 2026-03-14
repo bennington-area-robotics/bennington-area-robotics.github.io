@@ -11,7 +11,7 @@ Your donation helps fund robot parts, competition fees, and educational material
 
 Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit with EIN 84-5124653.
 
-### Help Send Our Students to the World Championship
+### Help Send Our Students to Worlds and New England!
 
 This season, both teams are advancing to out-of-state events.
 
