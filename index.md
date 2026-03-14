@@ -105,8 +105,6 @@ We participate in [FIRST Tech Challenge](https://www.firstinspires.org/robotics/
 
 Students design, build, and program their own robots to perform tasks and score points, working directly with technical mentors from the local community. They develop skills in mechanical engineering, programming, design, collaboration, and gracious professionalism (competing hard while helping other teams succeed).
 
-Team 18650 Cookie Clickers is the first southwestern Vermont team to advance to the FIRST Championship in Houston TX, to compete against other top teams from around the world.
-
 Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.**, a 501(c)(3) nonprofit organization. Donations are tax-deductible. [How to donate](/donate).
 
 
