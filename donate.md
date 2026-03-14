@@ -65,6 +65,24 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
   </li>
 {% endfor %}</ul>
 
+<script>
+(function() {
+  var items = document.querySelectorAll('.donation-feed li');
+  var limit = 5;
+  if (items.length > limit) {
+    for (var i = limit; i < items.length; i++) items[i].style.display = 'none';
+    var btn = document.createElement('button');
+    btn.textContent = 'Show all ' + items.length + ' donations';
+    btn.style.cssText = 'background:none;border:none;color:var(--link);cursor:pointer;padding:0.5rem 0;font-size:0.95rem;';
+    btn.addEventListener('click', function() {
+      for (var i = limit; i < items.length; i++) items[i].style.display = '';
+      btn.remove();
+    });
+    document.querySelector('.donation-feed').after(btn);
+  }
+})();
+</script>
+
 ### About Us
 
 Your donation helps fund robot parts, competition fees, travel expenses, and educational materials for middle and high school students in the Bennington Vermont area. All donations are tax-deductible to the extent permitted by law.
