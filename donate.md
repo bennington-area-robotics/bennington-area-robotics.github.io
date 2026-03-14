@@ -37,23 +37,47 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 <small>EIN 84-5124653</small>
 
-### Help Us Get There
+<h3>Help Us Get There</h3>
 
-**$1,600 raised** of $23,500 goal · 4 donations
+<div class="donation-progress">
+  <span class="raised">$1,600 raised</span>
+  <span class="goal"> of $23,500 goal &middot; 4 donations</span>
+  <div class="donation-progress-bar">
+    <div class="fill" style="width: 6.8%"></div>
+  </div>
+</div>
 
-**Anonymous** donated $100 to Cookie Clickers · Mar 14
-{: .donation}
-
-**FIRSTinVT** donated $500 to Cookie Clickers · Mar 7
-*"Event registration support"*
-{: .donation}
-
-**FIRSTinVT** donated $500 to Bolts and Biscuits · Mar 7
-*"Event registration support"*
-{: .donation}
-
-**Anonymous** donated $500 to Bolts and Biscuits
-{: .donation}
+<ul class="donation-feed">
+  <li>
+    <div class="donation-avatar">A</div>
+    <div class="donation-detail">
+      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$100</span> to Cookie Clickers
+      <div class="donation-meta">Mar 14</div>
+    </div>
+  </li>
+  <li>
+    <div class="donation-avatar">F</div>
+    <div class="donation-detail">
+      <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Cookie Clickers
+      <div class="donation-meta">Mar 7</div>
+      <div class="donation-message">"Event registration support"</div>
+    </div>
+  </li>
+  <li>
+    <div class="donation-avatar">F</div>
+    <div class="donation-detail">
+      <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
+      <div class="donation-meta">Mar 7</div>
+      <div class="donation-message">"Event registration support"</div>
+    </div>
+  </li>
+  <li>
+    <div class="donation-avatar">A</div>
+    <div class="donation-detail">
+      <span class="donor-name">Anonymous</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
+    </div>
+  </li>
+</ul>
 
 ### Questions?
 
