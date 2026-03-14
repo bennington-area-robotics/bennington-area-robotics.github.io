@@ -24,7 +24,7 @@ This season, both teams are advancing to out-of-state events.
 
 **Team 32473 Bennington Bolts and Biscuits** is advancing to the [New England Premier Event](https://www.nefirst.org/ftc-premier){:target="_blank"} at the Big E in West Springfield, MA. Travel for 5 students and 2 mentors will cost an estimated **$3,500**, covering registration, hotel, and meals.
 
-Cookie Clickers is heading to Worlds for the first time. Bolts and Biscuits, formed after last season's experience at New England showed us what more competition could do for our students, is already advancing to the regional level. Your support makes both possible.
+Cookie Clickers was formed in 2019 for middle school students, and some of those founding members are now seniors and heading to Worlds for the first time. Bolts and Biscuits was formed in 2025 and is already advancing to the regional level. Your support makes both possible.
 
 ### Donate Online
 
