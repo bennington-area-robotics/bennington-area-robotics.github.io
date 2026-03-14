@@ -16,10 +16,6 @@ og_image: /events/state-championship-2026/images/2026_FTC-228.jpg
   <button class="carousel-btn next" onclick="document.getElementById('donate-track').scrollBy({left: document.getElementById('donate-track').clientWidth, behavior: 'smooth'})">&rsaquo;</button>
 </div>
 
-Your donation helps fund robot parts, competition fees, and educational materials for middle and high school students in the Bennington Vermont area. All donations are tax-deductible to the extent permitted by law.
-
-Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit with EIN 84-5124653.
-
 ### Help Send Our Students to Worlds and New England!
 
 This season, both teams are advancing to out-of-state events.
@@ -68,6 +64,12 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
     </div>
   </li>
 {% endfor %}</ul>
+
+### About Us
+
+Your donation helps fund robot parts, competition fees, and educational materials for middle and high school students in the Bennington Vermont area. All donations are tax-deductible to the extent permitted by law.
+
+Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit with EIN 84-5124653.
 
 ### Questions?
 
