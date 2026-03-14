@@ -59,16 +59,14 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
     <div class="donation-avatar">F</div>
     <div class="donation-detail">
       <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Cookie Clickers
-      <div class="donation-meta">Mar 7</div>
-      <div class="donation-message">"Event registration support"</div>
+      <div class="donation-meta">Mar 7 &middot; Event registration support</div>
     </div>
   </li>
   <li>
     <div class="donation-avatar">F</div>
     <div class="donation-detail">
       <span class="donor-name">FIRSTinVT</span> donated <span class="donation-amount">$500</span> to Bolts and Biscuits
-      <div class="donation-meta">Mar 7</div>
-      <div class="donation-message">"Event registration support"</div>
+      <div class="donation-meta">Mar 7 &middot; Event registration support</div>
     </div>
   </li>
   <li>
