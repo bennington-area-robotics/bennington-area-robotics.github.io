@@ -31,8 +31,8 @@ Cookie Clickers was formed in 2019 for middle school students, and some of those
 [Donate via PayPal or Venmo](https://www.paypal.com/donate/?hosted_button_id=HPQY5NA3Z59C2){:target="_blank"}
 <br><small>501(c)(3): The Bennington Area Makers, Inc, EIN 84-5124653</small>
 
-[Donate via Hack Club](https://hcb.hackclub.com/donations/start/bennington-area-robotics){:target="_blank"}
-<br><small>501(c)(3): Hack Club, EIN 81-2908499</small>
+<!-- [Donate via Hack Club](https://hcb.hackclub.com/donations/start/bennington-area-robotics){:target="_blank"}
+<br><small>501(c)(3): Hack Club, EIN 81-2908499</small> -->
 
 ### Donate by Check
 
