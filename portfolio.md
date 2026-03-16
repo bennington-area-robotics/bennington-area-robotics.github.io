@@ -12,7 +12,7 @@ At the 2026 Vermont FTC State Championship, Team 18650 Cookie Clickers won the *
 
 Their Engineering Portfolio captures the full season — from early prototyping to competition-ready robot, community outreach, and team development.
 
-<div style="position: relative; width: 100%; padding-bottom: 129%; margin: 1.5rem 0 0.5rem;">
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin: 1.5rem 0 0.5rem;">
 <iframe src="https://drive.google.com/file/d/1XD6NRXbu9tq8MP7e6Mqw6j0jJrjJnnw3/preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #ddd; border-radius: 4px;" allow="autoplay"></iframe>
 </div>
 
