@@ -8,7 +8,7 @@ Team 18650 Cookie Clickers advances to the <strong>FIRST Championship</strong> i
 <br><br>
 Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
 <br><br>
-<a href="/donate">Support us with a tax-deductible donation!</a>
+<a href="/portfolio">Read our Engineering Portfolio</a> &middot; <a href="/donate">Support us with a tax-deductible donation!</a>
 </div>
 
 <div class="carousel" id="carousel">
@@ -88,7 +88,7 @@ Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Pre
 
 ## Teams
 
-- **[FTC Team 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, 1st ranked team and Inspire Award winner at the 2026 Vermont Championship.
+- **[FTC Team 18650: Cookie Clickers](https://ftc-events.firstinspires.org/team/18650){:target="_blank"}** – formed in 2019, 1st ranked team and Inspire Award winner at the 2026 Vermont Championship. [Engineering Portfolio](/portfolio).
 - **[FTC Team 32473: Bennington Bolts and Biscuits](https://ftc-events.firstinspires.org/team/32473){:target="_blank"}** – formed in 2025, 7th ranked team out of 25 at the 2026 Vermont Championship.
 
 ## Links
