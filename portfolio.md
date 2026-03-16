@@ -10,7 +10,7 @@ In FIRST Tech Challenge, an Engineering Portfolio documents a team's journey thr
 
 At the 2026 Vermont FTC State Championship, Team 18650 Cookie Clickers won the Inspire Award and the state championship title, advancing to the [FIRST Championship](https://www.firstchampionship.org/){:target="_blank"} in Houston TX.
 
-Their Engineering Portfolio captures the full season — from early prototyping to competition-ready robot, community outreach, and team development.
+Their Engineering Portfolio covers the full season — game strategy, iterative mechanical design, CAD and 3D printing, autonomous and teleop software, community outreach, and reflections from each team member.
 
 <div style="margin: 1.5rem 0 0.5rem;">
 <iframe src="https://drive.google.com/file/d/1XD6NRXbu9tq8MP7e6Mqw6j0jJrjJnnw3/preview" style="width: 100%; height: 120vh; border: 1px solid #ddd; border-radius: 4px;" allow="autoplay"></iframe>
