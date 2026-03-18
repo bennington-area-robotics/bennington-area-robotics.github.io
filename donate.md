@@ -7,15 +7,18 @@ og_image: /events/state-championship-2026/images/2026_FTC-228.jpg
 
 ## Help Send Our Students to Worlds and New England!
 
-Two Bennington Area Robotics teams are advancing to the FIRST Championship and the New England Premier Event. Your donation helps cover registration, travel, lodging, and meals.
+Two Bennington Area Robotics teams are advancing to the FIRST Championship and the New England Premier Event. Your donation helps cover registration, travel, lodging, and meals. 
 
-<div class="carousel" id="donate-carousel">
-  <button class="carousel-btn prev" onclick="document.getElementById('donate-track').scrollBy({left: -document.getElementById('donate-track').clientWidth, behavior: 'smooth'})">&lsaquo;</button>
+<!-- <a href="https://www.paypal.com/donate/?hosted_button_id=HPQY5NA3Z59C2" target="_blank" class="btn-donate">Donate Online</a>
+<br><small style="display:block; margin-bottom:1.5rem;">or <a href="#donate-by-check">by check</a> &mdash; 501(c)(3) nonprofit, EIN <span class="no-detect">84&#x2011;5124653</span></small> -->
+
+<div class="carousel" id="donate-carousel" data-start="10">
+  <button class="carousel-btn prev">&lsaquo;</button>
   <div class="carousel-track" id="donate-track">
-    <div class="carousel-slide"><img src="/events/state-championship-2026/images/2026_FTC-228.jpg" alt="Bennington Area Robotics at the 2026 VT State Championship" loading="lazy"></div>
-    <div class="carousel-slide"><img src="/events/state-championship-2026/images/2026_FTC-220.jpg" alt="Bennington Area Robotics at the 2026 VT State Championship" loading="lazy"></div>
+    {% include carousel-slides.html %}
   </div>
-  <button class="carousel-btn next" onclick="document.getElementById('donate-track').scrollBy({left: document.getElementById('donate-track').clientWidth, behavior: 'smooth'})">&rsaquo;</button>
+  <button class="carousel-btn next">&rsaquo;</button>
+  <button class="carousel-btn pause" title="Pause slideshow">⏸</button>
 </div>
 
 **Team 18650 Cookie Clickers** won the [FTC Vermont Championship](/events/state-championship-2026) and qualified for the [FIRST Championship](https://www.firstchampionship.org/){:target="_blank"} in Houston, TX, becoming the first team from southwestern Vermont to reach Worlds. [Read their Engineering Portfolio](/portfolio). Sending 6 students and 3 mentors to Houston will cost an estimated **$20,000**, covering registration, flights, lodging, and meals.
@@ -32,7 +35,7 @@ Cookie Clickers was formed in 2019 as a middle school team. Some of its founding
 <!-- [Donate via Hack Club](https://hcb.hackclub.com/donations/start/bennington-area-robotics){:target="_blank"}
 <br><small>501(c)(3): Hack Club, EIN 81-2908499</small> -->
 
-### Donate by Check
+### Donate by Check {#donate-by-check}
 
 Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
@@ -44,7 +47,14 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 
 ### Post-Season Advancement Fund
 
-{% assign total = 0 %}{% assign count = site.data.donations.donations | size %}{% for d in site.data.donations.donations %}{% assign total = total | plus: d.amount %}{% endfor %}{% assign goal = site.data.donations.goal %}{% assign pct = total | times: 100 | divided_by: goal %}
+{% assign donations = site.data.donations.donations %}
+{% assign goal = site.data.donations.goal %}
+{% assign count = donations | size %}
+{% assign total = 0 %}
+{% for d in donations %}
+  {% assign total = total | plus: d.amount %}
+{% endfor %}
+{% assign pct = total | times: 100 | divided_by: goal %}
 <div class="donation-progress">
   <span class="raised">${{ total | replace: '.0', '' }} raised</span>
   <span class="goal"> of ${{ goal | replace: '.0', '' }} goal &middot; {{ count }} donation{% if count != 1 %}s{% endif %}</span>
@@ -54,7 +64,7 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 </div>
 
 <ul class="donation-feed">
-{% for d in site.data.donations.donations %}  <li>
+{% for d in donations %}  <li>
     <div class="donation-avatar">{{ d.donor | slice: 0 }}</div>
     <div class="donation-detail">
       <span class="donor-name">{{ d.donor }}</span> donated <span class="donation-amount">${{ d.amount | replace: '.0', '' }}</span> to {{ d.recipient }}
@@ -86,6 +96,11 @@ Make checks payable to *The Bennington Area Makers, Inc.* and mail to:
 Your donation helps fund robot parts, competition fees, travel, and educational materials for middle and high school students in southwestern Vermont and neighboring New York. All donations are tax-deductible to the extent permitted by law.
 
 Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit with EIN 84-5124653.
+
+### In the News
+
+- **3/13/2026** – [Bennington area robotics teams shine at Tech Challenge](https://www.benningtonbanner.com/local-news/bennington-area-robotics-teams-shine-at-tech-challenge/article_6e2ff82e-e0ae-4fed-a300-153dac5ce625.html){:target="_blank"} – Bennington Banner
+- **3/9/2026** – [Robots Rule the Gym](https://www.uvm.edu/cems/news/robots-rule-gym){:target="_blank"} – UVM CEMS
 
 ### Questions?
 

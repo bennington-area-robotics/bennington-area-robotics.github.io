@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% assign page_title = page.title | default: site.title %}
+  {% assign page_desc = page.description | default: site.description %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   {% if page.og_image %}<meta property="og:image" content="{{ page.og_image | absolute_url }}">{% endif %}
   <meta name="twitter:card" content="{% if page.og_image %}summary_large_image{% else %}summary{% endif %}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
   {% if page.og_image %}<meta name="twitter:image" content="{{ page.og_image | absolute_url }}">{% endif %}
+  <meta name="format-detection" content="telephone=no">
   <link rel="icon" type="image/png" href="/images/chip-32x32-round.png">
   <link rel="apple-touch-icon" href="/images/chip-180x180-round.png">
   <style>
@@ -22,7 +25,10 @@
       --accent: #e63946;
       --bg: #fafafa;
       --text: #333;
-      --link: #6d87b8;
+      --muted: #666;
+      --border: #ddd;
+      --row-alt: #f5f5f5;
+      --row-hover: #e8f4f8;
     }
     html { overflow-y: scroll; }
     * { box-sizing: border-box; }
@@ -42,7 +48,6 @@
     header {
       background: var(--primary);
       color: white;
-      padding: 1rem 0;
       margin-bottom: 1rem;
     }
     header .container {
@@ -53,9 +58,34 @@
       margin: 0;
       font-size: 1.75rem;
     }
+    header h1 a {
+      color: white;
+      text-decoration: none;
+    }
     header p {
       margin: 0.5rem 0 0;
       opacity: 0.9;
+    }
+    header nav {
+      margin-top: 0.75rem;
+    }
+    nav a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      margin-right: 1.25rem;
+      padding-bottom: 0.25rem;
+      display: inline-block;
+      margin-top: 0.4rem;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    nav a:hover {
+      color: white;
+      border-bottom-color: rgba(255, 255, 255, 0.5);
+    }
+    nav a.active {
+      color: white;
+      border-bottom-color: white;
     }
     main h2 {
       color: var(--primary);
@@ -67,7 +97,7 @@
       margin-top: 0;
     }
     a {
-      color: var(--link);
+      color: var(--primary);
     }
     a:hover {
       color: var(--accent);
@@ -88,28 +118,12 @@
     footer {
       margin-top: 3rem;
       padding-top: 1rem;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid var(--border);
       font-size: 0.9rem;
-      color: #666;
+      color: var(--muted);
     }
-    nav a {
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      margin-right: 1.25rem;
-      padding-bottom: 0.25rem;
-      border-bottom: 2px solid transparent;
-      transition: color 0.2s, border-color 0.2s;
-    }
-    nav a:hover {
-      color: white;
-      border-bottom-color: rgba(255, 255, 255, 0.5);
-    }
-    nav a.active {
-      color: white;
-      border-bottom-color: white;
-    }
-    /* Table styling */
     table {
+      width: 100%;
       border-collapse: collapse;
       margin: 1rem 0;
       font-size: 0.95rem;
@@ -117,7 +131,7 @@
     th, td {
       padding: 0.75rem 1rem;
       text-align: left;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid var(--border);
     }
     th {
       background: var(--primary);
@@ -125,16 +139,14 @@
       font-weight: 600;
     }
     tr:nth-child(even) {
-      background: #f5f5f5;
+      background: var(--row-alt);
     }
     tr:hover {
-      background: #e8f4f8;
+      background: var(--row-hover);
     }
-    /* Keep header row from changing on hover */
     thead tr:hover {
       background: var(--primary);
     }
-    /* Highlight rows containing bold text */
     tr:has(strong) td:first-child {
       border-left: 4px solid var(--primary);
       padding-left: calc(1rem - 4px);
@@ -148,9 +160,6 @@
       display: flex;
       overflow-x: auto;
       scroll-snap-type: x mandatory;
-      scroll-behavior: smooth;
-      gap: 0;
-      -ms-overflow-style: none;
       scrollbar-width: none;
     }
     .carousel-track::-webkit-scrollbar {
@@ -192,6 +201,94 @@
     }
     .carousel-btn.prev { left: 0.5rem; }
     .carousel-btn.next { right: 0.5rem; }
+    .carousel-btn.pause {
+      top: 0.5rem;
+      right: 0.5rem;
+      transform: none;
+      font-size: 1rem;
+      padding: 0.3rem 0.6rem;
+    }
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: #000;
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox-stage {
+      display: flex;
+      width: 95vw;
+      height: 92vh;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .lightbox-stage::-webkit-scrollbar { display: none; }
+    .lightbox-slide {
+      flex: 0 0 100%;
+      scroll-snap-align: center;
+      cursor: zoom-out;
+    }
+    .lightbox-slide img {
+      width: 100%;
+      height: 92vh;
+      object-fit: contain;
+      display: block;
+      cursor: default;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+    }
+    .lightbox-close, .lightbox-prev, .lightbox-next {
+      z-index: 1;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      line-height: 1;
+    }
+    .lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover {
+      background: rgba(255, 255, 255, 0.35);
+    }
+    .lightbox-close {
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.5rem;
+      padding: 0.4rem 0.75rem;
+    }
+    .lightbox-prev, .lightbox-next {
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2.5rem;
+      padding: 0.5rem 0.75rem;
+    }
+    .lightbox-prev { left: 1rem; }
+    .lightbox-next { right: 1rem; }
+    /* Defeat Safari data detectors on EIN */
+    .no-detect { unicode-bidi: isolate; }
+    /* Donate button */
+    .btn-donate {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.65rem 1.75rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin: 0.5rem 0 0.25rem;
+    }
+    .btn-donate:hover {
+      background: #536d99;
+      color: white;
+    }
     /* Donation feed */
     .donation-progress {
       margin: 1rem 0 1.5rem;
@@ -202,7 +299,7 @@
       color: var(--primary);
     }
     .donation-progress .goal {
-      color: #666;
+      color: var(--muted);
       font-size: 0.95rem;
     }
     .donation-progress-bar {
@@ -268,20 +365,34 @@
 <body>
   <header>
     <div class="container">
-      <h1><a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
-      <nav style="margin-top: 0.75rem;">
-        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-        <a href="{{ '/events' | relative_url }}" {% if page.url contains 'events' %}class="active"{% endif %}>Events</a>
-        <a href="{{ '/portfolio' | relative_url }}" {% if page.url == '/portfolio' or page.url == '/portfolio.html' %}class="active"{% endif %}>Portfolio</a>
-        <a href="{{ '/sponsors' | relative_url }}" {% if page.url == '/sponsors' or page.url == '/sponsors.html' %}class="active"{% endif %}>Sponsors</a>
-        <a href="{{ '/donate' | relative_url }}" {% if page.url == '/donate' or page.url == '/donate.html' %}class="active"{% endif %}>Donate</a>
+      <nav>
+        {% assign nav_items = "Home:/,Events:/events,Portfolio:/portfolio,Sponsors:/sponsors,Donate:/donate" | split: "," %}
+        {% for item in nav_items %}
+          {% assign parts = item | split: ":" %}
+          {% assign label = parts[0] %}
+          {% assign path = parts[1] %}
+          {% assign is_active = false %}
+          {% if path == '/' %}
+            {% if page.url == '/' %}{% assign is_active = true %}{% endif %}
+          {% elsif page.url contains path %}
+            {% assign is_active = true %}
+          {% endif %}
+          <a href="{{ path | relative_url }}" {% if is_active %}class="active"{% endif %}>{{ label }}</a>
+        {% endfor %}
       </nav>
     </div>
   </header>
   <main class="container">
     {{ content }}
   </main>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightbox-close" title="Close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev" title="Previous" aria-label="Previous image">&lsaquo;</button>
+    <div class="lightbox-stage" id="lightbox-stage"></div>
+    <button class="lightbox-next" id="lightbox-next" title="Next" aria-label="Next image">&rsaquo;</button>
+  </div>
   <footer class="container">
     <p>
       &copy; {{ 'now' | date: "%Y" }} Bennington Area Robotics
@@ -291,5 +402,175 @@
       <a href="https://github.com/bennington-area-robotics" target="_blank" rel="noopener">GitHub</a>
     </p>
   </footer>
+<script>
+(function() {
+  var lightbox = document.getElementById('lightbox');
+  var stage = document.getElementById('lightbox-stage');
+  var currentImages = [];
+  var currentSyncFn = null;
+
+  function makeSlide(src, alt) {
+    var slide = document.createElement('div');
+    slide.className = 'lightbox-slide';
+    var img = document.createElement('img');
+    img.src = src;
+    img.alt = alt;
+    img.draggable = false;
+    slide.appendChild(img);
+    return slide;
+  }
+
+  function openLightbox(images, index, syncFn) {
+    currentImages = images;
+    currentSyncFn = syncFn;
+    var n = images.length;
+    stage.innerHTML = '';
+    var lastClone = makeSlide(images[n - 1].src, images[n - 1].alt);
+    lastClone.setAttribute('aria-hidden', 'true');
+    var firstClone = makeSlide(images[0].src, images[0].alt);
+    firstClone.setAttribute('aria-hidden', 'true');
+    var fragment = document.createDocumentFragment();
+    fragment.appendChild(lastClone);
+    images.forEach(function(img) { fragment.appendChild(makeSlide(img.src, img.alt)); });
+    fragment.appendChild(firstClone);
+    stage.appendChild(fragment);
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(function() {
+      stage.scrollTo({left: (index + 1) * stage.clientWidth, behavior: 'auto'});
+    });
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+    stage.innerHTML = '';
+  }
+
+  function normalizeStage() {
+    if (!lightbox.classList.contains('open')) return;
+    var w = stage.clientWidth;
+    var n = currentImages.length;
+    var idx;
+    if (stage.scrollLeft < w / 2) {
+      stage.scrollTo({left: n * w, behavior: 'auto'});
+      idx = n - 1;
+    } else if (stage.scrollLeft > n * w + w / 2) {
+      stage.scrollTo({left: w, behavior: 'auto'});
+      idx = 0;
+    } else {
+      idx = Math.round(stage.scrollLeft / w) - 1;
+    }
+    if (currentSyncFn) currentSyncFn(idx);
+  }
+
+  stage.addEventListener('scrollend', normalizeStage);
+
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function(e) {
+    if (e.target.tagName === 'IMG' || e.target.closest('button')) return;
+    closeLightbox();
+  });
+  document.getElementById('lightbox-prev').addEventListener('click', function(e) {
+    e.stopPropagation();
+    stage.scrollBy({left: -stage.clientWidth, behavior: 'smooth'});
+  });
+  document.getElementById('lightbox-next').addEventListener('click', function(e) {
+    e.stopPropagation();
+    stage.scrollBy({left: stage.clientWidth, behavior: 'smooth'});
+  });
+  document.addEventListener('keydown', function(e) {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    else if (e.key === 'ArrowLeft') stage.scrollBy({left: -stage.clientWidth, behavior: 'smooth'});
+    else if (e.key === 'ArrowRight') stage.scrollBy({left: stage.clientWidth, behavior: 'smooth'});
+  });
+
+  document.querySelectorAll('.carousel').forEach(function(carousel) {
+    var track = carousel.querySelector('.carousel-track');
+    if (!track) return;
+    var pauseBtn = carousel.querySelector('.carousel-btn.pause');
+    var paused = false;
+    var timer;
+
+    // Clone first and last slides for seamless infinite wrap
+    var slides = Array.from(track.children);
+    var n = slides.length;
+    var firstClone = slides[0].cloneNode(true);
+    var lastClone = slides[n - 1].cloneNode(true);
+    firstClone.setAttribute('aria-hidden', 'true');
+    lastClone.setAttribute('aria-hidden', 'true');
+    track.appendChild(firstClone);
+    track.insertBefore(lastClone, slides[0]);
+    var startIndex = parseInt(carousel.getAttribute('data-start'), 10) || 0;
+    track.scrollTo({left: (startIndex + 1) * track.clientWidth, behavior: 'auto'});
+
+    function normalize() {
+      var w = track.clientWidth;
+      if (track.scrollLeft < w / 2)
+        track.scrollTo({left: n * w, behavior: 'auto'});
+      else if (track.scrollLeft > n * w + w / 2)
+        track.scrollTo({left: w, behavior: 'auto'});
+    }
+
+    function scroll(dir) {
+      normalize();
+      track.scrollBy({left: dir * track.clientWidth, behavior: 'smooth'});
+    }
+
+    function scheduleAdvance() {
+      clearTimeout(timer);
+      if (!paused) timer = setTimeout(function() { scroll(1); }, 5000);
+    }
+
+    // After scroll settles on a clone, teleport and schedule next advance
+    track.addEventListener('scrollend', function() { normalize(); scheduleAdvance(); });
+
+    function setPauseBtn(isPaused) {
+      if (pauseBtn) {
+        pauseBtn.textContent = isPaused ? '\u25B6' : '\u23F8';
+        pauseBtn.title = isPaused ? 'Play slideshow' : 'Pause slideshow';
+      }
+    }
+
+    function pause() {
+      if (paused) return;
+      clearTimeout(timer);
+      paused = true;
+      setPauseBtn(true);
+    }
+
+    function play() {
+      if (!paused) return;
+      paused = false;
+      setPauseBtn(false);
+      scheduleAdvance();
+    }
+
+    if (pauseBtn) pauseBtn.addEventListener('click', function() { paused ? play() : pause(); });
+    track.addEventListener('pointerdown', pause);
+    var prevBtn = carousel.querySelector('.carousel-btn.prev');
+    var nextBtn = carousel.querySelector('.carousel-btn.next');
+    if (prevBtn) prevBtn.addEventListener('click', function() { pause(); scroll(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', function() { pause(); scroll(1); });
+
+    // Lightbox: real slides only; index+1 accounts for the prepended lastClone
+    var images = Array.from(carousel.querySelectorAll('.carousel-slide:not([aria-hidden]) img'));
+    var syncFn = function(idx) {
+      track.scrollTo({left: (idx + 1) * track.clientWidth, behavior: 'smooth'});
+    };
+
+    function addLightboxHandler(img, i) {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', function() { openLightbox(images, i, syncFn); pause(); });
+    }
+    images.forEach(addLightboxHandler);
+    addLightboxHandler(lastClone.querySelector('img'), n - 1);
+    addLightboxHandler(firstClone.querySelector('img'), 0);
+
+    scheduleAdvance();
+  });
+})();
+</script>
 </body>
 </html>
