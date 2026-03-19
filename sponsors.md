@@ -35,6 +35,6 @@ We are grateful to the following organizations for their support of youth roboti
 
 ### Become a Sponsor
 
-Interested in supporting youth robotics in our community? We're currently seeking sponsors to help send our teams to Worlds and New England. Contact us at [info@bamvt.com](mailto:info@bamvt.com?subject=Robotics%20Sponsorship).
+Interested in supporting youth robotics in our community? We're currently seeking sponsors to help send our teams to Worlds and New England. See our [budget](/budget) to understand how funds are used. Contact us at [info@bamvt.com](mailto:info@bamvt.com?subject=Robotics%20Sponsorship).
 
 *Want to make a personal donation? Visit our [donate page](/donate).*

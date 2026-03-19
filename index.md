@@ -9,7 +9,7 @@ Team 18650 Cookie Clickers advances to the <strong>FIRST Championship</strong> i
 <br><br>
 Team 32473 Bennington Bolts and Biscuits advances to the <strong>New England Premier Event</strong> at the Big E in West Springfield MA, April 17–18!
 <br><br>
-<a href="/donate">Support us with a tax-deductible donation!</a>
+<a href="/donate">Support us with a tax-deductible donation!</a> <a href="/budget">See our budget</a>
 </div>
 
 <div class="carousel" id="carousel">
@@ -66,7 +66,7 @@ We participate in [FIRST Tech Challenge](https://www.firstinspires.org/robotics/
 
 Students design, build, and program their own robots to perform tasks and score points, working directly with technical mentors from the local community. They develop skills in mechanical engineering, programming, design, collaboration, and gracious professionalism (competing hard while helping other teams succeed).
 
-Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.**, a 501(c)(3) nonprofit organization. Donations are tax-deductible. [How to donate](/donate).
+Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.**, a 501(c)(3) nonprofit organization. Donations are tax-deductible. [How to donate](/donate). [See our budget](/budget).
 
 
 <p style="text-align: center; font-style: italic; margin-bottom: 0.5em;">Team 18650 Cookie Clickers in playoff match 4 of the <a href="https://ftc-events.firstinspires.org/2024/USVTCMP" target="_blank">2024–2025 VT State Championship</a>.</p>

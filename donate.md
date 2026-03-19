@@ -7,7 +7,7 @@ og_image: /events/state-championship-2026/images/2026_FTC-228.jpg
 
 ## Help Send Our Students to Worlds and New England!
 
-Two Bennington Area Robotics teams are advancing to the FIRST Championship and the New England Premier Event. Your donation helps cover registration, travel, lodging, and meals. 
+Two Bennington Area Robotics teams are advancing to the FIRST Championship and the New England Premier Event. Your donation helps cover registration, travel, lodging, and meals. See our [full budget](/budget) for details. 
 
 <!-- <a href="https://www.paypal.com/donate/?hosted_button_id=HPQY5NA3Z59C2" target="_blank" class="btn-donate">Donate Online</a>
 <br><small style="display:block; margin-bottom:1.5rem;">or <a href="#donate-by-check">by check</a> &mdash; 501(c)(3) nonprofit, EIN <span class="no-detect">84&#x2011;5124653</span></small> -->
@@ -110,4 +110,4 @@ Email us at [info@bamvt.com](mailto:info@bamvt.com?subject=Donation%20Inquiry).
 
 ---
 
-*We're grateful to our [regular-season sponsors](/sponsors), whose support helped us get this far.*
+*We're grateful to our [regular-season sponsors](/sponsors), whose support helped us get this far. See our [full budget](/budget).*
