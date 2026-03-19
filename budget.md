@@ -141,3 +141,5 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 </table>
 
 {% endfor %}
+
+*Note: The regular season budget above does not include family out-of-pocket costs for event travel, food, and lodging for Vermont events, before post-season advancement.*
