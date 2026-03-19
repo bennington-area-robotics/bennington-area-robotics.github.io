@@ -80,7 +80,8 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% assign org_entries = d_orgs | split: "|" %}
 {% for entry in org_entries %}
 {% assign parts = entry | split: ":" %}
-<tr><td>{{ parts[0] }}</td><td style="text-align:right">{% include money.html amount=parts[1] %}</td></tr>
+{% assign org_name = parts[0] %}{% assign org_amount = parts[1] %}
+<tr><td>{{ org_name }}</td><td style="text-align:right">{% include money.html amount=org_amount %}</td></tr>
 {% endfor %}
 {% endif %}
 {% if d_individual > 0 %}<tr><td>Individual donations</td><td style="text-align:right">{% include money.html amount=d_individual %}</td></tr>{% endif %}
