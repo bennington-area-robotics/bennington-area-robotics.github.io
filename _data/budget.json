@@ -8,7 +8,8 @@
         "note": "Estimated robot replacement cost: $3,100",
         "income": [
           { "source": "Catamount Rotary", "amount": 350.00 },
-          { "source": "Local businesses", "amount": 1700.00 },
+          { "source": "Comprehensive Computing", "amount": 1400.00 },
+          { "source": "Local businesses", "amount": 300.00 },
           { "source": "National foundations", "amount": 200.00 }
         ],
         "expenses": [
