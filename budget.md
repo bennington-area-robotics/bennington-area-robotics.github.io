@@ -18,16 +18,17 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 
 {% assign budget = site.data.budget %}
 
-{% comment %}Compute regular season totals{% endcomment %}
-{% assign rs_inc = 0 %}{% assign rs_exp = 0 %}{% assign rs_ink = 0 %}
+{% comment %}Compute regular-season totals{% endcomment %}
+{% assign rs_inc = 0 %}
+{% assign rs_exp = 0 %}
+{% assign rs_ink = 0 %}
 {% for team in budget.regular_season.teams %}
   {% for i in team.income %}{% assign rs_inc = rs_inc | plus: i.amount %}{% endfor %}
   {% for e in team.expenses %}{% assign rs_exp = rs_exp | plus: e.amount %}{% endfor %}
-  {% if team.in_kind %}{% for k in team.in_kind %}{% assign rs_ink = rs_ink | plus: k.value %}{% endfor %}{% endif %}
+  {% for k in team.in_kind %}{% assign rs_ink = rs_ink | plus: k.value %}{% endfor %}
 {% endfor %}
-{% assign rs_net = rs_inc | minus: rs_exp %}
 
-{% comment %}Compute post-season donation totals{% endcomment %}
+{% comment %}Compute post-season totals{% endcomment %}
 {% assign ps_inc = 0 %}
 {% for d in site.data.donations.donations %}
   {% assign ps_inc = ps_inc | plus: d.amount %}
@@ -36,6 +37,7 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% for team in budget.post_season.teams %}
   {% if team.estimated_total %}{% assign ps_exp = ps_exp | plus: team.estimated_total %}{% endif %}
 {% endfor %}
+
 {% assign total_inc = rs_inc | plus: ps_inc %}
 {% assign total_exp = rs_exp | plus: ps_exp %}
 
@@ -56,12 +58,17 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% if team.description %}{{ team.description | markdownify }}{% endif %}
 
 {% if team.donation_recipient %}
-{% assign d_total = 0 %}{% assign d_individual = 0 %}{% assign d_firstinvt = 0 %}
+{% assign d_total = 0 %}
+{% assign d_individual = 0 %}
+{% assign d_firstinvt = 0 %}
 {% for d in site.data.donations.donations %}
   {% if d.recipient == team.donation_recipient %}
     {% assign d_total = d_total | plus: d.amount %}
-    {% if d.donor == "FIRSTinVT" %}{% assign d_firstinvt = d_firstinvt | plus: d.amount %}
-    {% else %}{% assign d_individual = d_individual | plus: d.amount %}{% endif %}
+    {% if d.donor == "FIRSTinVT" %}
+      {% assign d_firstinvt = d_firstinvt | plus: d.amount %}
+    {% else %}
+      {% assign d_individual = d_individual | plus: d.amount %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 <table>
@@ -94,9 +101,9 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% if team.note %}{{ team.note }}{% endif %}
 
 {% assign inc_total = 0 %}
-{% if team.income %}{% for i in team.income %}{% assign inc_total = inc_total | plus: i.amount %}{% endfor %}{% endif %}
+{% for i in team.income %}{% assign inc_total = inc_total | plus: i.amount %}{% endfor %}
 {% assign exp_total = 0 %}
-{% if team.expenses %}{% for e in team.expenses %}{% assign exp_total = exp_total | plus: e.amount %}{% endfor %}{% endif %}
+{% for e in team.expenses %}{% assign exp_total = exp_total | plus: e.amount %}{% endfor %}
 {% assign net = inc_total | minus: exp_total %}
 
 <table>
@@ -112,7 +119,7 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% if team.expenses %}
 <tr><td colspan="2"><strong>Expenses</strong></td></tr>
 {% for e in team.expenses %}
-<tr><td>{{ e.category }}</td><td style="text-align:right">{% if e.estimated %}~{% endif %}{% include money.html amount=e.amount %}</td></tr>
+<tr><td>{{ e.category }}</td><td style="text-align:right">{% if e.amount %}{% if e.estimated %}~{% endif %}{% include money.html amount=e.amount %}{% else %}TBD{% endif %}</td></tr>
 {% endfor %}
 <tr><td><strong>Total Expenses</strong></td><td style="text-align:right"><strong>{% include money.html amount=exp_total %}</strong></td></tr>
 {% if net < 0 %}
@@ -122,9 +129,10 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% endif %}
 {% endif %}
 {% if team.in_kind %}
-<tr><td colspan="2"><strong>In-Kind Support</strong></td></tr>
 {% assign ink_total = 0 %}
-{% for k in team.in_kind %}{% assign ink_total = ink_total | plus: k.value %}
+{% for k in team.in_kind %}{% assign ink_total = ink_total | plus: k.value %}{% endfor %}
+<tr><td colspan="2"><strong>In-Kind Support</strong></td></tr>
+{% for k in team.in_kind %}
 <tr><td>{{ k.source }}</td><td style="text-align:right">{% include money.html amount=k.value %}</td></tr>
 {% endfor %}
 <tr><td><strong>Total In-Kind</strong></td><td style="text-align:right"><strong>{% include money.html amount=ink_total %}</strong></td></tr>
