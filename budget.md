@@ -16,7 +16,7 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 
 Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.** (BAMVT), a 501(c)(3) nonprofit organization with EIN 84-5124653. All donations are tax-deductible to the extent permitted by law. [How to donate](/donate).
 
-*Note: These budgets do not include family out-of-pocket costs for event travel, food, and lodging for Vermont events, before post-season advancement.*
+*Note: These budgets do not include family out-of-pocket costs for event travel, food, and lodging for Vermont events before post-season advancement.*
 
 {% assign budget = site.data.budget %}
 
