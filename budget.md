@@ -12,6 +12,10 @@ Their success has created entirely new budget needs 3-4x the size of our regular
 
 Thus we see that FTC Robotics in Vermont is normally quite affordable, until the teams do well enough to advance out of state, where budgets are larger, teams are more competitive, and everyone travels further to more events. Despite the cost, advancement is a good experience for the students, to see their same activity pursued at higher levels of accomplishment, and understand themselves as peers on the national and international level.
 
+<p style="text-align:center; margin-top:2rem;">
+  <a href="/donate" class="btn-donate">Support Our Teams</a>
+</p>
+
 {% assign budget = site.data.budget %}
 
 {% comment %}Compute regular season totals{% endcomment %}
@@ -81,10 +85,6 @@ Thus we see that FTC Robotics in Vermont is normally quite affordable, until the
 {% endif %}
 
 {% endfor %}
-
-<p style="text-align:center; margin-top:2rem;">
-  <a href="/donate" class="btn-donate">Support Our Teams</a>
-</p>
 
 ## {{ budget.regular_season.label }}
 
