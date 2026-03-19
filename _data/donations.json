@@ -2,6 +2,12 @@
   "goal": 23500,
   "donations": [
     {
+      "donor": "David L.",
+      "amount": 103.48,
+      "recipient": "Cookie Clickers",
+      "date": "2026-03-18"
+    },
+    {
       "donor": "Gemma & Dutch",
       "amount": 1030.26,
       "recipient": "Bolts and Biscuits",

@@ -58,7 +58,7 @@
       margin: 0;
       font-size: 1.75rem;
     }
-    header h1 a {
+    header h1 a, header h1 a:hover {
       color: white;
       text-decoration: none;
     }
@@ -271,6 +271,26 @@
     }
     .lightbox-prev { left: 1rem; }
     .lightbox-next { right: 1rem; }
+    /* Budget grid */
+    .budget-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 2rem;
+      margin: 1rem 0;
+    }
+    .budget-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 2rem;
+    }
+    .budget-row + .budget-row { margin-top: 1rem; }
+    @media (max-width: 700px) {
+      .budget-grid { grid-template-columns: 1fr; }
+      .budget-row { grid-template-columns: 1fr; }
+    }
+    .budget-col table { font-size: 0.88rem; }
+    .budget-col h3 { margin-top: 0; }
+    .budget-col h4 { margin: 1rem 0 0.25rem; font-size: 0.95rem; color: var(--muted); }
     /* Defeat Safari data detectors on EIN */
     .no-detect { unicode-bidi: isolate; }
     /* Donate button */
@@ -368,7 +388,7 @@
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
       <nav>
-        {% assign nav_items = "Home:/,Events:/events,Portfolio:/portfolio,Sponsors:/sponsors,Donate:/donate" | split: "," %}
+        {% assign nav_items = "Home:/,Events:/events,Portfolio:/portfolio,Sponsors:/sponsors,Budget:/budget,Donate:/donate" | split: "," %}
         {% for item in nav_items %}
           {% assign parts = item | split: ":" %}
           {% assign label = parts[0] %}
