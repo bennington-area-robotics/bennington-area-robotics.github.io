@@ -2,6 +2,12 @@
   "goal": 23500,
   "donations": [
     {
+      "donor": "Anonymous",
+      "amount": 103.48,
+      "recipient": "Robotics General Fund",
+      "date": "2026-03-20"
+    },
+    {
       "donor": "MSK Engineers",
       "amount": 500,
       "recipient": "Cookie Clickers",
