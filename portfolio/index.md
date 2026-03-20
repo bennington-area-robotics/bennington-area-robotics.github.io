@@ -25,4 +25,4 @@ Their Engineering Portfolio covers the full season — game strategy, iterative 
   </div>
 </div>
 
-[Download PDF](https://drive.google.com/file/d/1XD6NRXbu9tq8MP7e6Mqw6j0jJrjJnnw3/view?usp=sharing){:target="_blank"} &middot; [Learn more about FTC awards](https://www.firstinspires.org/robotics/ftc/awards){:target="_blank"}
+[Download PDF](https://bamvt.curlycabbage.com/ftc-18650/engineering-portfolio-vermont-2026-0307.pdf){:target="_blank"} &middot; [Learn more about FTC awards](https://www.firstinspires.org/robotics/ftc/awards){:target="_blank"}
