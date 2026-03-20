@@ -310,10 +310,26 @@
       background: white;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
-    .portfolio-loading {
-      text-align: center;
-      padding: 3rem 1rem;
-      color: var(--muted);
+    .portfolio-skeleton {
+      width: 100%;
+      max-width: 680px;
+      aspect-ratio: 8.5 / 11;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    .portfolio-skeleton::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.04) 50%, transparent 100%);
+      animation: skeleton-shimmer 1.5s infinite;
+    }
+    @keyframes skeleton-shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
     }
     .portfolio-controls {
       display: flex;
@@ -695,8 +711,7 @@
     function showCached(idx, scale) {
       var key = idx + '_' + scale;
       if (pageCache[key]) {
-        var display = pageContainer.querySelector('canvas');
-        if (display) pageContainer.removeChild(display);
+        pageContainer.innerHTML = '';
         pageContainer.appendChild(pageCache[key]);
         return true;
       }
@@ -726,8 +741,7 @@
       renderToCanvas(idx, scale).then(function(canvas) {
         pageCache[idx + '_' + scale] = canvas;
         if (current === idx) {
-          var display = pageContainer.querySelector('canvas');
-          if (display) pageContainer.removeChild(display);
+          pageContainer.innerHTML = '';
           pageContainer.appendChild(canvas);
         }
         rendering = false;
