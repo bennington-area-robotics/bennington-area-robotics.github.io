@@ -401,6 +401,39 @@
       right: 0.75rem;
       z-index: 1;
     }
+    .portfolio-side-prev, .portfolio-side-next {
+      display: none;
+    }
+    .portfolio-viewer.fullscreen .portfolio-side-prev,
+    .portfolio-viewer.fullscreen .portfolio-side-next {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: none;
+      font-size: 2.5rem;
+      padding: 0.5rem 0.75rem;
+      cursor: pointer;
+      border-radius: 4px;
+      line-height: 1;
+      z-index: 1;
+    }
+    .portfolio-viewer.fullscreen .portfolio-side-prev { left: 1rem; }
+    .portfolio-viewer.fullscreen .portfolio-side-next { right: 1rem; }
+    .portfolio-viewer.fullscreen .portfolio-side-prev:hover,
+    .portfolio-viewer.fullscreen .portfolio-side-next:hover {
+      background: rgba(255, 255, 255, 0.35);
+    }
+    .portfolio-viewer.fullscreen .portfolio-side-prev:disabled,
+    .portfolio-viewer.fullscreen .portfolio-side-next:disabled {
+      opacity: 0.2;
+      cursor: default;
+    }
+    .portfolio-viewer.fullscreen .portfolio-page canvas {
+      cursor: pointer;
+    }
     /* Defeat Safari data detectors on EIN */
     .no-detect { unicode-bidi: isolate; }
     /* Donate button */
@@ -625,6 +658,8 @@
     var counter = viewer.querySelector('.portfolio-counter');
     var loading = viewer.querySelector('.portfolio-loading');
     var closeBtn = viewer.querySelector('.portfolio-close');
+    var sidePrev = viewer.querySelector('.portfolio-side-prev');
+    var sideNext = viewer.querySelector('.portfolio-side-next');
     var pdfDoc = null;
     var current = 0;
     var rendering = false;
@@ -636,6 +671,8 @@
       counter.textContent = 'Page ' + (current + 1) + ' of ' + n;
       prevBtn.disabled = current === 0;
       nextBtn.disabled = current === n - 1;
+      sidePrev.disabled = current === 0;
+      sideNext.disabled = current === n - 1;
     }
 
     function renderPage(idx) {
@@ -668,8 +705,14 @@
       document.body.style.overflow = '';
     }
 
-    pageContainer.addEventListener('click', function() { if (!isFullscreen) enterFullscreen(); });
+    pageContainer.addEventListener('click', function() {
+      if (!isFullscreen) { enterFullscreen(); }
+      else if (pdfDoc && current < pdfDoc.numPages - 1) { renderPage(current + 1); }
+    });
     closeBtn.addEventListener('click', function(e) { e.stopPropagation(); exitFullscreen(); });
+
+    sidePrev.addEventListener('click', function(e) { e.stopPropagation(); if (current > 0) renderPage(current - 1); });
+    sideNext.addEventListener('click', function(e) { e.stopPropagation(); if (pdfDoc && current < pdfDoc.numPages - 1) renderPage(current + 1); });
 
     prevBtn.addEventListener('click', function() { if (current > 0) renderPage(current - 1); });
     nextBtn.addEventListener('click', function() { if (pdfDoc && current < pdfDoc.numPages - 1) renderPage(current + 1); });

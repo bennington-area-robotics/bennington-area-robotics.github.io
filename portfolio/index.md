@@ -14,6 +14,8 @@ Their Engineering Portfolio covers the full season — game strategy, iterative 
 
 <div class="portfolio-viewer" data-pdf="https://bamvt.curlycabbage.com/ftc-18650/engineering-portfolio-vermont-2026-0307.pdf">
   <button class="portfolio-close" title="Close" aria-label="Close fullscreen">&times;</button>
+  <button class="portfolio-side-prev" title="Previous page" aria-label="Previous page" disabled>&lsaquo;</button>
+  <button class="portfolio-side-next" title="Next page" aria-label="Next page" disabled>&rsaquo;</button>
   <div class="portfolio-loading">Loading portfolio…</div>
   <div class="portfolio-page"></div>
   <div class="portfolio-controls">
