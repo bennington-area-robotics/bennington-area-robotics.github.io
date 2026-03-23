@@ -17,6 +17,13 @@
     },
     {
       "donor": "Anonymous",
+      "amount": 103.48,
+      "recipient": "Cookie Clickers",
+      "date": "2026-03-22",
+      "memo": "Good luck"
+    },
+    {
+      "donor": "Anonymous",
       "amount": 50,
       "recipient": "Robotics General Fund",
       "date": "2026-03-21"
