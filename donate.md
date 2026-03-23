@@ -101,8 +101,7 @@ Bennington Area Robotics is organized under **The Bennington Area Makers, Inc.**
 
 ### In the News
 
-- **3/13/2026** – [Bennington area robotics teams shine at Tech Challenge](https://www.benningtonbanner.com/local-news/bennington-area-robotics-teams-shine-at-tech-challenge/article_6e2ff82e-e0ae-4fed-a300-153dac5ce625.html){:target="_blank"} – Bennington Banner
-- **3/9/2026** – [Robots Rule the Gym](https://www.uvm.edu/cems/news/robots-rule-gym){:target="_blank"} – UVM CEMS
+{% include news-coverage.html %}
 
 ### Questions?
 
