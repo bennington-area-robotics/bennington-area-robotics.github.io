@@ -3,6 +3,12 @@
   "donations": [
     {
       "donor": "Anonymous",
+      "amount": 10,
+      "recipient": "Robotics General Fund",
+      "date": "2026-03-26"
+    },
+    {
+      "donor": "Anonymous",
       "amount": 200,
       "recipient": "Cookie Clickers",
       "date": "2026-03-26"
