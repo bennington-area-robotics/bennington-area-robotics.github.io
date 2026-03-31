@@ -5,7 +5,8 @@
       "donor": "Consulting Services, Inc.",
       "amount": 300,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-31"
+      "date": "2026-03-31",
+      "type": "organization"
     },
     {
       "donor": "Anonymous",
