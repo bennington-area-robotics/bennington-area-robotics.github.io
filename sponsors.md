@@ -5,12 +5,12 @@ title: Sponsors
 
 ## Post-Season Sponsors
 
-- [MSK Engineers](https://www.mskeng.com){:target="_blank"}
-- [Goldstone Architecture](https://www.goldstonearchitecture.com/){:target="_blank"}
-- [The Dowd Agencies](https://www.dowd.com/){:target="_blank"}
-- Statewide Public Affairs, Inc.
-- [Consulting Services, Inc.](https://www.csi4usa.com/){:target="_blank"}
 - [Crystal IS](https://www.cisuvc.com/){:target="_blank"}
+- [MSK Engineers](https://www.mskeng.com){:target="_blank"}
+- [Consulting Services, Inc.](https://www.csi4usa.com/){:target="_blank"}
+- [Goldstone Architecture](https://www.goldstonearchitecture.com/){:target="_blank"}
+- Statewide Public Affairs, Inc.
+- [The Dowd Agencies](https://www.dowd.com/){:target="_blank"}
 
 *Contact us to sponsor the first-ever southwestern Vermont team at Worlds!*
 
