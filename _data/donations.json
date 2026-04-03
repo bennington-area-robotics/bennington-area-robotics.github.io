@@ -9,6 +9,12 @@
       "type": "organization"
     },
     {
+      "donor": "Anonymous",
+      "amount": 21.10,
+      "recipient": "Robotics General Fund",
+      "date": "2026-04-01"
+    },
+    {
       "donor": "Consulting Services, Inc.",
       "amount": 300,
       "recipient": "Cookie Clickers",
