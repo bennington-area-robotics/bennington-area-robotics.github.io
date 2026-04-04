@@ -34,7 +34,7 @@
     {
       "donor": "Steve and Deana Mallory",
       "amount": 50,
-      "recipient": "Robotics General Fund",
+      "recipient": "Bolts and Biscuits",
       "date": "2026-03-29",
       "type": "family"
     },
@@ -77,7 +77,7 @@
     {
       "donor": "Anonymous",
       "amount": 500,
-      "recipient": "Robotics General Fund",
+      "recipient": "Cookie Clickers",
       "date": "2026-03-23",
       "type": "family"
     },
@@ -136,7 +136,7 @@
     {
       "donor": "Sasha B.",
       "amount": 103.48,
-      "recipient": "Robotics General Fund",
+      "recipient": "Cookie Clickers",
       "date": "2026-03-20",
       "type": "family"
     },
@@ -173,7 +173,7 @@
     {
       "donor": "Sam M.",
       "amount": 26.25,
-      "recipient": "Robotics General Fund",
+      "recipient": "Cookie Clickers",
       "date": "2026-03-16",
       "memo": "Cookie Clickers alum",
       "type": "alumni"
