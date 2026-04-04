@@ -61,7 +61,9 @@ Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.** (B
 
 {% if team.donation_recipient %}
 {% assign d_total = 0 %}
-{% assign d_individual = 0 %}
+{% assign d_family = 0 %}
+{% assign d_community = 0 %}
+{% assign d_alumni = 0 %}
 {% assign d_orgs = "" %}
 {% for d in site.data.donations.donations %}
   {% if d.recipient == team.donation_recipient %}
@@ -69,8 +71,12 @@ Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.** (B
     {% if d.type == "organization" %}
       {% if d_orgs != "" %}{% assign d_orgs = d_orgs | append: "|" %}{% endif %}
       {% assign d_orgs = d_orgs | append: d.donor | append: ":" | append: d.amount %}
+    {% elsif d.type == "family" %}
+      {% assign d_family = d_family | plus: d.amount %}
+    {% elsif d.type == "alumni" %}
+      {% assign d_alumni = d_alumni | plus: d.amount %}
     {% else %}
-      {% assign d_individual = d_individual | plus: d.amount %}
+      {% assign d_community = d_community | plus: d.amount %}
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -78,7 +84,9 @@ Bennington Area Robotics is a program of **The Bennington Area Makers, Inc.** (B
 <thead><tr><th></th><th style="text-align:right">Amount</th></tr></thead>
 <tbody>
 <tr><td colspan="2"><strong>Income</strong></td></tr>
-{% if d_individual > 0 %}<tr><td>Family, friends, and community</td><td style="text-align:right">{% include money.html amount=d_individual %}</td></tr>{% endif %}
+{% if d_family > 0 %}<tr><td>Family</td><td style="text-align:right">{% include money.html amount=d_family %}</td></tr>{% endif %}
+{% if d_community > 0 %}<tr><td>Community</td><td style="text-align:right">{% include money.html amount=d_community %}</td></tr>{% endif %}
+{% if d_alumni > 0 %}<tr><td>Alumni</td><td style="text-align:right">{% include money.html amount=d_alumni %}</td></tr>{% endif %}
 {% if d_orgs != "" %}
 {% assign org_entries = d_orgs | split: "|" | reverse %}
 {% for entry in org_entries %}

@@ -6,44 +6,51 @@
       "amount": 2000,
       "recipient": "Cookie Clickers",
       "date": "2026-04-03",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.cisuvc.com/"
     },
     {
       "donor": "Lucia T.",
       "amount": 21.10,
       "recipient": "Robotics General Fund",
-      "date": "2026-04-01"
+      "date": "2026-04-01",
+      "type": "community"
     },
     {
       "donor": "Consulting Services, Inc.",
       "amount": 300,
       "recipient": "Cookie Clickers",
       "date": "2026-03-31",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.csi4usa.com/"
     },
     {
       "donor": "Sam & Gail",
       "amount": 1000,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-31"
+      "date": "2026-03-31",
+      "type": "community"
     },
     {
       "donor": "Steve and Deana Mallory",
       "amount": 50,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-29"
+      "date": "2026-03-29",
+      "type": "family"
     },
     {
       "donor": "Anonymous",
       "amount": 50,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-27"
+      "date": "2026-03-27",
+      "type": "community"
     },
     {
       "donor": "Anonymous",
       "amount": 10,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-26"
+      "date": "2026-03-26",
+      "type": "community"
     },
     {
       "donor": "Statewide Public Affairs, Inc.",
@@ -57,38 +64,44 @@
       "amount": 150,
       "recipient": "Cookie Clickers",
       "date": "2026-03-26",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.dowd.com/"
     },
     {
       "donor": "Mariah and Jeff Siegel",
       "amount": 500,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-24"
+      "date": "2026-03-24",
+      "type": "community"
     },
     {
       "donor": "Anonymous",
       "amount": 500,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-23"
+      "date": "2026-03-23",
+      "type": "family"
     },
     {
-      "donor": "Anonymous",
+      "donor": "Radocchia Family Donation",
       "amount": 2000,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-23"
+      "date": "2026-03-23",
+      "type": "family"
     },
     {
       "donor": "Anonymous",
       "amount": 51.99,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-23"
+      "date": "2026-03-23",
+      "type": "community"
     },
     {
       "donor": "Eben R.",
       "amount": 103.48,
       "recipient": "Cookie Clickers",
       "date": "2026-03-22",
-      "memo": "Have fun in Houston"
+      "memo": "Have fun in Houston",
+      "type": "alumni"
     },
     {
       "donor": "Anonymous gift (Houston trip)",
@@ -102,122 +115,141 @@
       "amount": 103.48,
       "recipient": "Cookie Clickers",
       "date": "2026-03-22",
-      "memo": "Good luck"
+      "memo": "Good luck",
+      "type": "community"
     },
     {
       "donor": "Carrie B.",
       "amount": 50,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-21"
+      "date": "2026-03-21",
+      "type": "community"
     },
     {
       "donor": "Goldstone Architecture",
       "amount": 200,
       "recipient": "Cookie Clickers",
       "date": "2026-03-20",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.goldstonearchitecture.com/"
     },
     {
       "donor": "Sasha B.",
       "amount": 103.48,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "type": "family"
     },
     {
       "donor": "MSK Engineers",
       "amount": 500,
       "recipient": "Cookie Clickers",
       "date": "2026-03-19",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.mskeng.com"
     },
     {
       "donor": "David L.",
       "amount": 103.48,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "type": "community"
     },
     {
       "donor": "Gemma & Dutch",
       "amount": 1030.26,
       "recipient": "Bolts and Biscuits",
-      "date": "2026-03-17"
+      "date": "2026-03-17",
+      "type": "family"
     },
     {
       "donor": "Pat & Linda",
       "amount": 100.00,
       "recipient": "Cookie Clickers",
       "date": "2026-03-17",
-      "memo": "for Nolan and team"
+      "memo": "for Nolan and team",
+      "type": "family"
     },
     {
       "donor": "Sam M.",
       "amount": 26.25,
       "recipient": "Robotics General Fund",
       "date": "2026-03-16",
-      "memo": "Cookie Clickers alum"
+      "memo": "Cookie Clickers alum",
+      "type": "alumni"
     },
     {
       "donor": "Anonymous",
       "amount": 103.48,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-16"
+      "date": "2026-03-16",
+      "type": "community"
     },
     {
       "donor": "Betsy V.",
       "amount": 500,
       "recipient": "Cookie Clickers",
       "date": "2026-03-15",
-      "memo": "Texas trip"
+      "memo": "Texas trip",
+      "type": "family"
     },
     {
       "donor": "Nancy Schuster",
       "amount": 100,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-15"
+      "date": "2026-03-15",
+      "type": "community"
     },
     {
       "donor": "Jackie Kelly",
       "amount": 500,
       "recipient": "Cookie Clickers",
       "date": "2026-03-15",
-      "memo": "Miss you guys. Hope you have a great competition and great experiences. Best of luck."
+      "memo": "Miss you guys. Hope you have a great competition and great experiences. Best of luck.",
+      "type": "alumni"
     },
     {
       "donor": "Shirley A.",
       "amount": 100,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-15"
+      "date": "2026-03-15",
+      "type": "community"
     },
     {
       "donor": "Nina W.",
       "amount": 50,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-14"
+      "date": "2026-03-14",
+      "type": "community"
     },
     {
       "donor": "Anonymous",
       "amount": 100,
       "recipient": "Robotics General Fund",
-      "date": "2026-03-14"
+      "date": "2026-03-14",
+      "type": "community"
     },
     {
       "donor": "Alexandra R.",
       "amount": 103.48,
       "recipient": "Cookie Clickers",
       "date": "2026-03-14",
-      "memo": "For Texas!"
+      "memo": "For Texas!",
+      "type": "family"
     },
     {
       "donor": "Brian S.",
       "amount": 100,
       "recipient": "Cookie Clickers",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "type": "family"
     },
     {
-      "donor": "Anonymous",
+      "donor": "Family donation",
       "amount": 500,
       "recipient": "Bolts and Biscuits",
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "type": "family"
     },
     {
       "donor": "FIRSTinVT",
@@ -225,7 +257,8 @@
       "recipient": "Cookie Clickers",
       "date": "2026-03-07",
       "memo": "Event registration support",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.firstinvermont.org/"
     },
     {
       "donor": "FIRSTinVT",
@@ -233,7 +266,8 @@
       "recipient": "Bolts and Biscuits",
       "date": "2026-03-07",
       "memo": "Event registration support",
-      "type": "organization"
+      "type": "organization",
+      "url": "https://www.firstinvermont.org/"
     }
   ]
 }

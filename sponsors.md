@@ -3,14 +3,52 @@ layout: default
 title: Sponsors
 ---
 
-## Post-Season Sponsors
+## Post-Season Donors
 
-- [Crystal IS](https://www.cisuvc.com/){:target="_blank"}
-- [MSK Engineers](https://www.mskeng.com){:target="_blank"}
-- [Consulting Services, Inc.](https://www.csi4usa.com/){:target="_blank"}
-- [Goldstone Architecture](https://www.goldstonearchitecture.com/){:target="_blank"}
-- Statewide Public Affairs, Inc.
-- [The Dowd Agencies](https://www.dowd.com/){:target="_blank"}
+{% assign tiers = "5000,1000,500,200,100,0" | split: "," %}
+{% assign tier_labels = "$5,000+|$1,000-$4,999|$500-$999|$200-$499|$100-$199|Under $100" | split: "|" %}
+{% assign tier_caps = "999999,4999,999,499,199,99" | split: "," %}
+
+{% for tier in tiers %}
+{% assign tier_floor = tier | plus: 0 %}
+{% assign tier_cap = tier_caps[forloop.index0] | plus: 0 %}
+{% assign tier_label = tier_labels[forloop.index0] %}
+{% assign names = "" %}
+{% assign anon_count = 0 %}
+{% assign seen = "" %}
+
+{% for d in site.data.donations.donations %}
+  {% if d.type == "family" %}{% continue %}{% endif %}
+  {% if d.donor == "Anonymous" or d.donor contains "Anonymous gift" %}
+    {% if d.amount >= tier_floor and d.amount <= tier_cap %}
+      {% assign anon_count = anon_count | plus: 1 %}
+    {% endif %}
+    {% continue %}
+  {% endif %}
+  {% unless seen contains d.donor %}
+    {% assign donor_total = 0 %}
+    {% for d2 in site.data.donations.donations %}
+      {% if d2.donor == d.donor %}
+        {% assign donor_total = donor_total | plus: d2.amount %}
+      {% endif %}
+    {% endfor %}
+    {% if donor_total >= tier_floor and donor_total <= tier_cap %}
+      {% if names != "" %}{% assign names = names | append: "|" %}{% endif %}
+      {% assign names = names | append: d.donor %}
+    {% endif %}
+    {% assign seen = seen | append: d.donor | append: "||" %}
+  {% endunless %}
+{% endfor %}
+
+{% assign name_list = names | split: "|" %}
+{% if name_list.size > 0 or anon_count > 0 %}
+### {{ tier_label }}
+
+{% for name in name_list %}{% assign url = nil %}{% for d in site.data.donations.donations %}{% if d.donor == name and d.url %}{% assign url = d.url %}{% endif %}{% endfor %}- {% if url %}[{{ name }}]({{ url }}){:target="_blank"}{% else %}{{ name }}{% endif %}
+{% endfor %}{% if anon_count > 0 %}- *and {{ anon_count }} anonymous donation{% if anon_count > 1 %}s{% endif %}*
+{% endif %}
+{% endif %}
+{% endfor %}
 
 *Contact us to sponsor the first-ever southwestern Vermont team at Worlds!*
 
