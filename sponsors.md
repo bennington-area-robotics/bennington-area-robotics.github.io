@@ -13,13 +13,14 @@ title: Sponsors
 {% assign tier_floor = tier | plus: 0 %}
 {% assign tier_cap = tier_caps[forloop.index0] | plus: 0 %}
 {% assign tier_label = tier_labels[forloop.index0] %}
-{% assign names = "" %}
+{% assign org_names = "" %}
+{% assign other_names = "" %}
 {% assign anon_count = 0 %}
 {% assign seen = "" %}
 
 {% for d in site.data.donations.donations %}
   {% if d.type == "family" %}{% continue %}{% endif %}
-  {% if d.donor == "Anonymous" or d.donor contains "Anonymous gift" %}
+  {% if d.donor == "Anonymous" %}
     {% if d.amount >= tier_floor and d.amount <= tier_cap %}
       {% assign anon_count = anon_count | plus: 1 %}
     {% endif %}
@@ -27,24 +28,32 @@ title: Sponsors
   {% endif %}
   {% unless seen contains d.donor %}
     {% assign donor_total = 0 %}
+    {% assign donor_type = d.type %}
     {% for d2 in site.data.donations.donations %}
       {% if d2.donor == d.donor %}
         {% assign donor_total = donor_total | plus: d2.amount %}
       {% endif %}
     {% endfor %}
     {% if donor_total >= tier_floor and donor_total <= tier_cap %}
-      {% if names != "" %}{% assign names = names | append: "|" %}{% endif %}
-      {% assign names = names | append: d.donor %}
+      {% if donor_type == "organization" %}
+        {% if org_names != "" %}{% assign org_names = org_names | append: "|" %}{% endif %}
+        {% assign org_names = org_names | append: d.donor %}
+      {% else %}
+        {% if other_names != "" %}{% assign other_names = other_names | append: "|" %}{% endif %}
+        {% assign other_names = other_names | append: d.donor %}
+      {% endif %}
     {% endif %}
     {% assign seen = seen | append: d.donor | append: "||" %}
   {% endunless %}
 {% endfor %}
 
-{% assign name_list = names | split: "|" %}
-{% if name_list.size > 0 or anon_count > 0 %}
+{% assign org_list = org_names | split: "|" %}
+{% assign other_list = other_names | split: "|" %}
+{% if org_list.size > 0 or other_list.size > 0 or anon_count > 0 %}
 ### {{ tier_label }}
 
-{% for name in name_list %}{% assign url = nil %}{% for d in site.data.donations.donations %}{% if d.donor == name and d.url %}{% assign url = d.url %}{% endif %}{% endfor %}- {% if url %}[{{ name }}]({{ url }}){:target="_blank"}{% else %}{{ name }}{% endif %}
+{% for name in org_list %}{% assign url = nil %}{% for d in site.data.donations.donations %}{% if d.donor == name and d.url %}{% assign url = d.url %}{% endif %}{% endfor %}- {% if url %}[{{ name }}]({{ url }}){:target="_blank"}{% else %}{{ name }}{% endif %}
+{% endfor %}{% for name in other_list %}- {{ name }}
 {% endfor %}{% if anon_count > 0 %}- *and {{ anon_count }} anonymous donation{% if anon_count > 1 %}s{% endif %}*
 {% endif %}
 {% endif %}
