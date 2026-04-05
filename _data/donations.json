@@ -10,6 +10,13 @@
       "url": "https://www.cisuvc.com/"
     },
     {
+      "donor": "Roy",
+      "amount": 5,
+      "recipient": "Cookie Clickers",
+      "date": "2026-04-02",
+      "type": "community"
+    },
+    {
       "donor": "Lucia T.",
       "amount": 21.10,
       "recipient": "Bolts and Biscuits",
