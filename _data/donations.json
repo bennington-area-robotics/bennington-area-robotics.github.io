@@ -2,6 +2,14 @@
   "goal": 23500,
   "donations": [
     {
+      "donor": "Comprehensive Computing",
+      "amount": 1500,
+      "recipient": "Cookie Clickers",
+      "date": "2026-04-08",
+      "type": "organization",
+      "url": "https://www.comprehensive-computing.com/"
+    },
+    {
       "donor": "Mack Molding",
       "amount": 2500,
       "recipient": "Cookie Clickers",
